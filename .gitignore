@@ -8,6 +8,10 @@ __pycache__/
 .virtual/
 .env
 
+# Front-end
+front-end/node_modules/
+front-end/dist/
+
 # Editor
 .idea/
 .vscode/
@@ -19,3 +23,5 @@ _*.log
 _probe_*.py
 _retry_*.py
 _rate_check.py
+_push.cmd
+_check.cmd

@@ -5,7 +5,7 @@ Mermaid architecture diagrams for public repositories under:
 - [Bible-Translation-Tools](https://github.com/Bible-Translation-Tools/)
 - [WycliffeAssociates](https://github.com/WycliffeAssociates/)
 
-Start here: **[architecture-index.md](architecture-index.md)**
+Start here: **[architecture-index.md](architecture-index.md)** · Viewer: **`front-end/`** (`pnpm --dir front-end dev`)
 
 ## Layout
 
@@ -17,6 +17,7 @@ Start here: **[architecture-index.md](architecture-index.md)**
 | `architecture/.sha-cache.json` | Default-branch SHAs used for incremental regen |
 | `fetch_repos.py` | Refresh `public-repos.json` from GitHub |
 | `generate_architecture_docs.py` | Probe repos and render Mermaid markdown |
+| `front-end/` | Web app to browse/render markdown + Mermaid (pan/zoom) |
 
 ## Local usage
 
@@ -32,6 +33,10 @@ python generate_architecture_docs.py --changed-only
 
 # Single repo
 python generate_architecture_docs.py --only Bible-Translation-Tools/BTT-Writer --force
+
+# Browse diagrams in the web viewer
+pnpm --dir front-end install
+pnpm --dir front-end dev
 ```
 
 Clones are stored under `_clones/` (gitignored).
