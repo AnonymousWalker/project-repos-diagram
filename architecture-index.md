@@ -1,0 +1,253 @@
+# WA / BTT repository architecture index
+
+Architecture diagrams (Mermaid) for public repositories under [Bible-Translation-Tools](https://github.com/Bible-Translation-Tools/) and [WycliffeAssociates](https://github.com/WycliffeAssociates/).
+
+- Hand-authored (deeper review): Orature, Fetcher
+- Generated from repo layout/README: 237
+- Sparse / failed probes: 0
+
+## Bible-Translation-Tools
+
+- [AudioCompressor](architecture/Bible-Translation-Tools/AudioCompressor-architecture.md)
+- [AudioCompressorAndroid](architecture/Bible-Translation-Tools/AudioCompressorAndroid-architecture.md) — Converts a zip of mp3 to wav and vice versa
+- [audiolib](architecture/Bible-Translation-Tools/audiolib-architecture.md)
+- [AudioScripts](architecture/Bible-Translation-Tools/AudioScripts-architecture.md) — Various scripts to examine audio and cue content
+- [base-javafx-repo](architecture/Bible-Translation-Tools/base-javafx-repo-architecture.md) — A simple, preconfigured gradle project to use as a starting point for new javafx projects
+- [base-kotlin-repo](architecture/Bible-Translation-Tools/base-kotlin-repo-architecture.md) — A simple, preconfigured gradle project to use as a starting point for new kotlin projects
+- [BIEL-mobile-app](architecture/Bible-Translation-Tools/BIEL-mobile-app-architecture.md)
+- [BTT-Exchanger](architecture/Bible-Translation-Tools/BTT-Exchanger-architecture.md) — Release repo for Translation Exchange project
+- [BTT-Recorder](architecture/Bible-Translation-Tools/BTT-Recorder-architecture.md) — Repository for BTT Recorder Android App
+- [BTT-Writer](architecture/Bible-Translation-Tools/BTT-Writer-architecture.md) — BTT-Writer Multiplatform
+- [BTT-Writer-Android](architecture/Bible-Translation-Tools/BTT-Writer-Android-architecture.md)
+- [BTT-Writer-Desktop](architecture/Bible-Translation-Tools/BTT-Writer-Desktop-architecture.md) — Bible Translation Tools Writer Application
+- [BTTConverter](architecture/Bible-Translation-Tools/BTTConverter-architecture.md) — translationRecorder Converter
+- [BTTConverterAndroid](architecture/Bible-Translation-Tools/BTTConverterAndroid-architecture.md)
+- [BTTConverterDesktop](architecture/Bible-Translation-Tools/BTTConverterDesktop-architecture.md) — BTTConverter for Desktop
+- [chunking-prototype](architecture/Bible-Translation-Tools/chunking-prototype-architecture.md) — Downloader Specifically for the Orature Chunking Prototype
+- [convert-broadcast-wav](architecture/Bible-Translation-Tools/convert-broadcast-wav-architecture.md) — Converts wav files with header extensions to normal wav files
+- [cue2timing](architecture/Bible-Translation-Tools/cue2timing-architecture.md) — Converts cue files to audacity timing files
+- [doc-scanner](architecture/Bible-Translation-Tools/doc-scanner-architecture.md) — Simple Doc Scanner with Google's ML kit object detection library
+- [Fetcher](Fetcher-architecture.md) *(hand-authored)* — An app/library for downloading Scritpure Source Audio for Translation
+- [fetcher-pipeline](architecture/Bible-Translation-Tools/fetcher-pipeline-architecture.md)
+- [install4j-update-demo](architecture/Bible-Translation-Tools/install4j-update-demo-architecture.md)
+- [interpresure_editor](architecture/Bible-Translation-Tools/interpresure_editor-architecture.md)
+- [interpresure_scripture_analysis](architecture/Bible-Translation-Tools/interpresure_scripture_analysis-architecture.md) — Agentic analysis of translation drafts
+- [jump3r](architecture/Bible-Translation-Tools/jump3r-architecture.md) — Java mp3 codec library - a copy of https://sourceforge.net/projects/jump3r/ .
+- [kmp-gogs-client](architecture/Bible-Translation-Tools/kmp-gogs-client-architecture.md) — A client library for interacting with the Gogs REST api.
+- [kmp-logger](architecture/Bible-Translation-Tools/kmp-logger-architecture.md) — A better logging tool for android
+- [kmp-resource-catalog-client](architecture/Bible-Translation-Tools/kmp-resource-catalog-client-architecture.md)
+- [kmp-resource-container](architecture/Bible-Translation-Tools/kmp-resource-container-architecture.md) — A utility for managing Door43 Resource Containers
+- [kotlin-recorder2rc](architecture/Bible-Translation-Tools/kotlin-recorder2rc-architecture.md)
+- [kotlin-scripture-alignment](architecture/Bible-Translation-Tools/kotlin-scripture-alignment-architecture.md) — A kotlin library for the Scripture Burrito Alignment format
+- [kotlin-scripture-burrito](architecture/Bible-Translation-Tools/kotlin-scripture-burrito-architecture.md) — A Kotlin library for Scripture Burrito
+- [kotlin-vtt](architecture/Bible-Translation-Tools/kotlin-vtt-architecture.md) — A WebVTT Parser for Kotlin/JVM
+- [maui](architecture/Bible-Translation-Tools/maui-architecture.md)
+- [node-door43-client](architecture/Bible-Translation-Tools/node-door43-client-architecture.md) — A client library for interacting with the Door43 Catalog
+- [node-gogs-client](architecture/Bible-Translation-Tools/node-gogs-client-architecture.md) — A client library for interacting with the gogs REST api
+- [OQuA](architecture/Bible-Translation-Tools/OQuA-architecture.md)
+- [Orature](Orature-architecture.md) *(hand-authored)* — Orature, an application for creating Narrations and Translations of Audio Bibles, Books, Resources, Commentaries, etc.
+- [orature-nightly](architecture/Bible-Translation-Tools/orature-nightly-architecture.md) — Github Pages webapp for accessing Orature Builds
+- [Orature-Plugin](architecture/Bible-Translation-Tools/Orature-Plugin-architecture.md) — A base repo to create an audio plugin for Orature
+- [Reaper-Orature-Plugin](architecture/Bible-Translation-Tools/Reaper-Orature-Plugin-architecture.md)
+- [scripture-audio-validator](architecture/Bible-Translation-Tools/scripture-audio-validator-architecture.md)
+- [scripture-burrito](architecture/Bible-Translation-Tools/scripture-burrito-architecture.md) — Scripture Burrito Schema & Docs 🌯
+- [ScriptureAppBuilder-pipeline](architecture/Bible-Translation-Tools/ScriptureAppBuilder-pipeline-architecture.md)
+- [SeekableJLayer](architecture/Bible-Translation-Tools/SeekableJLayer-architecture.md) — An upload of a jlayer fork with seek capabilities
+- [Spotlight](architecture/Bible-Translation-Tools/Spotlight-architecture.md)
+- [storage-directory-specification](architecture/Bible-Translation-Tools/storage-directory-specification-architecture.md) — The specification for the directory structure of media storage
+- [sun-lessons](architecture/Bible-Translation-Tools/sun-lessons-architecture.md)
+- [tornadofx-demo-app](architecture/Bible-Translation-Tools/tornadofx-demo-app-architecture.md) — A demo application using torandofx
+- [tornadofx2](architecture/Bible-Translation-Tools/tornadofx2-architecture.md) — TornadoFX 2.0
+- [tr-source-server](architecture/Bible-Translation-Tools/tr-source-server-architecture.md) — Dockerized server to serve up tr source audio files
+- [Transcriber](architecture/Bible-Translation-Tools/Transcriber-architecture.md)
+- [USFM-Converter](architecture/Bible-Translation-Tools/USFM-Converter-architecture.md) — Tool for converting USFM to readable formats like HTML and DOCX
+- [usfm-tools](architecture/Bible-Translation-Tools/usfm-tools-architecture.md) — Tools for converting, cleaning, and checking Scripture text
+- [usfmtools-js](architecture/Bible-Translation-Tools/usfmtools-js-architecture.md)
+- [versification_json](architecture/Bible-Translation-Tools/versification_json-architecture.md) — A JSON expression of the Paratext versification.vrs file.
+- [wat-worker](architecture/Bible-Translation-Tools/wat-worker-architecture.md) — Cloudflare worker app to process singleton words with AI models
+- [WordAnalysisTool](architecture/Bible-Translation-Tools/WordAnalysisTool-architecture.md)
+
+## WycliffeAssociates
+
+- [5wocbot](architecture/WycliffeAssociates/5wocbot-architecture.md) — 5 Weeks of Code Hubot
+- [8woc](architecture/WycliffeAssociates/8woc-architecture.md) — Repository for the 8-weeks-of-code internship program
+- [8woc2018_reversi](architecture/WycliffeAssociates/8woc2018_reversi-architecture.md) — Reversi challenge for 8woc 2018
+- [8woc_2017_demo](architecture/WycliffeAssociates/8woc_2017_demo-architecture.md) — Demo repo for 8WoC 2017
+- [8wocMiniChallenge](architecture/WycliffeAssociates/8wocMiniChallenge-architecture.md)
+- [analyze-catalog](architecture/WycliffeAssociates/analyze-catalog-architecture.md) — Browse and process two unfoldingWord catalog datasets.
+- [android-gogs-client](architecture/WycliffeAssociates/android-gogs-client-architecture.md) — A client library for interacting with the Gogs REST api.
+- [android-gogs-ui](architecture/WycliffeAssociates/android-gogs-ui-architecture.md) — UI for login and profile creation for Door43 gogs
+- [apex](architecture/WycliffeAssociates/apex-architecture.md) — Old apex/apex
+- [ArchiveOfHolding](architecture/WycliffeAssociates/ArchiveOfHolding-architecture.md) — An uncompressed archive format with a JSON Table of Contents Header
+- [astro-live-reader](architecture/WycliffeAssociates/astro-live-reader-architecture.md)
+- [audio-bible-player](architecture/WycliffeAssociates/audio-bible-player-architecture.md)
+- [audio_sb_vtt_proposal](architecture/WycliffeAssociates/audio_sb_vtt_proposal-architecture.md)
+- [AudioSABbuilder](architecture/WycliffeAssociates/AudioSABbuilder-architecture.md) — python app for making an Android app out of chapter based Scripture Audio mp3s
+- [auto-irg-experimental](architecture/WycliffeAssociates/auto-irg-experimental-architecture.md)
+- [AzureStaticSiteHoster](architecture/WycliffeAssociates/AzureStaticSiteHoster-architecture.md) — A small web application to make static websites in local azure storage emulators much better to use
+- [badge-cop](architecture/WycliffeAssociates/badge-cop-architecture.md) — badge generation web server
+- [badge-markdown-generator](architecture/WycliffeAssociates/badge-markdown-generator-architecture.md)
+- [badge-sentinal](architecture/WycliffeAssociates/badge-sentinal-architecture.md)
+- [basic-tools-site](architecture/WycliffeAssociates/basic-tools-site-architecture.md)
+- [bible_getter](architecture/WycliffeAssociates/bible_getter-architecture.md) — Get bible in usfm format from wordproject.org and bible.com
+- [bibletranslationtools](architecture/WycliffeAssociates/bibletranslationtools-architecture.md)
+- [biel-customize-print-webapp](architecture/WycliffeAssociates/biel-customize-print-webapp-architecture.md) — Web app to customize PDF, DOCX, etc. rendering for repos on BIEL.
+- [biel-files-index](architecture/WycliffeAssociates/biel-files-index-architecture.md) — Creates an index of the biel-files resources for import to the BIEL website.
+- [biel-frontend](architecture/WycliffeAssociates/biel-frontend-architecture.md)
+- [breakpad](architecture/WycliffeAssociates/breakpad-architecture.md) — Mirror of Google Breakpad project
+- [brightcove-api-vidoes-list](architecture/WycliffeAssociates/brightcove-api-vidoes-list-architecture.md) — Fall Hackathon 2022 project to download list of videos from Brigthcove api
+- [btt-recorder-docs](architecture/WycliffeAssociates/btt-recorder-docs-architecture.md) — BTT Recorder documentation
+- [btt-writer-docs](architecture/WycliffeAssociates/btt-writer-docs-architecture.md) — Documentation for BTT Writer
+- [BTT_Writer_Resource_Updater](architecture/WycliffeAssociates/BTT_Writer_Resource_Updater-architecture.md) — A script to create an updated zip of the resource_container portion of BTT_Writer
+- [BTTWriterLib](architecture/WycliffeAssociates/BTTWriterLib-architecture.md) — A set of utilities for Reading files from Bible Translation Tools Writer
+- [chromeabletabpane](architecture/WycliffeAssociates/chromeabletabpane-architecture.md) — A tab pane for javafx that allows inserting ui controls into the tab header
+- [compact_tn](architecture/WycliffeAssociates/compact_tn-architecture.md) — Script to generate a compact tN.
+- [ContourMemberTools](architecture/WycliffeAssociates/ContourMemberTools-architecture.md)
+- [CreateCSVFromUSFM](architecture/WycliffeAssociates/CreateCSVFromUSFM-architecture.md) — Create a CSV from a set of USFM files
+- [CRMAssemblyLoader](architecture/WycliffeAssociates/CRMAssemblyLoader-architecture.md) — An assembly CD tool for Dynamics CRM
+- [CRMAssemblyValidator](architecture/WycliffeAssociates/CRMAssemblyValidator-architecture.md) — A utility to help catch common mistakes in assemblies for dynamics crm
+- [CRMAsyncHealthChecker](architecture/WycliffeAssociates/CRMAsyncHealthChecker-architecture.md) — A utility to check the amount of async operations waiting and alert if they are above a limit
+- [CRMImporter](architecture/WycliffeAssociates/CRMImporter-architecture.md) — A data import library for dynamics crm
+- [CRMIncrementVersionNumber](architecture/WycliffeAssociates/CRMIncrementVersionNumber-architecture.md) — Increments the version number of a CRM solution
+- [CRMLastLoginReport](architecture/WycliffeAssociates/CRMLastLoginReport-architecture.md) — A utility to generate a report of when somebody last logged into Dynamics CRM
+- [CRMReportDeploy](architecture/WycliffeAssociates/CRMReportDeploy-architecture.md) — A Continuous Deployment tool for CRM reports
+- [CRMSolutionExporter](architecture/WycliffeAssociates/CRMSolutionExporter-architecture.md) — A utility to export solution files from dynamics crm
+- [CRMSolutionImporter](architecture/WycliffeAssociates/CRMSolutionImporter-architecture.md) — A utitlity to import solutions into CRM
+- [CRMUtils](architecture/WycliffeAssociates/CRMUtils-architecture.md) — A set of utilities for interacting with Dynamics CRM
+- [CRMViewLoader](architecture/WycliffeAssociates/CRMViewLoader-architecture.md) — A view loader for Dynamics CRM
+- [CRMWebResourceUpload](architecture/WycliffeAssociates/CRMWebResourceUpload-architecture.md) — A utility to upload and create web resources to dynamics crm
+- [CRMWorkflowToSentry](architecture/WycliffeAssociates/CRMWorkflowToSentry-architecture.md) — Send failed workflows to sentry
+- [cro-hackathon-2024-10](architecture/WycliffeAssociates/cro-hackathon-2024-10-architecture.md)
+- [cro-usfm-linter](architecture/WycliffeAssociates/cro-usfm-linter-architecture.md)
+- [cue-sheet-manager](architecture/WycliffeAssociates/cue-sheet-manager-architecture.md)
+- [cuelib](architecture/WycliffeAssociates/cuelib-architecture.md) — A copy of the now non maintained library for manipulating CUE sheets.
+- [d43-catalog](architecture/WycliffeAssociates/d43-catalog-architecture.md) — Lambda functions for the Door43 Catalog.
+- [DataverseMetadataMCPServer](architecture/WycliffeAssociates/DataverseMetadataMCPServer-architecture.md) — An MCP server that can be used to query Dataverse/Power Platform metadata
+- [DFTCheck](architecture/WycliffeAssociates/DFTCheck-architecture.md)
+- [DOC](architecture/WycliffeAssociates/DOC-architecture.md) — Document Organization and Combination - Interleaving Multiple Scripture Resources Backend and Frontend
+- [DOC-UI](architecture/WycliffeAssociates/DOC-UI-architecture.md) — Frontend for the DOC/IRG project
+- [docker-sentry](architecture/WycliffeAssociates/docker-sentry-architecture.md) — Docker Official Image packaging for Sentry
+- [DOT-mobile](architecture/WycliffeAssociates/DOT-mobile-architecture.md)
+- [Dot-Tools](architecture/WycliffeAssociates/Dot-Tools-architecture.md) — Utilities and Tools for the dot ecosystem
+- [dot-web](architecture/WycliffeAssociates/dot-web-architecture.md)
+- [ExportViewUtility](architecture/WycliffeAssociates/ExportViewUtility-architecture.md) — A utility to email a view from Dynamics CRM
+- [ExtractLetters](architecture/WycliffeAssociates/ExtractLetters-architecture.md) — 8Woc 2017 Mini Project
+- [fake-xrm](architecture/WycliffeAssociates/fake-xrm-architecture.md) — Mocking framework for client-side Dynamics365
+- [Fetcher_utils](architecture/WycliffeAssociates/Fetcher_utils-architecture.md)
+- [FontIndexer](architecture/WycliffeAssociates/FontIndexer-architecture.md) — An indexer for mapping unicode to fonts
+- [gogs-custom](architecture/WycliffeAssociates/gogs-custom-architecture.md) — Gitea customizations
+- [gosu](architecture/WycliffeAssociates/gosu-architecture.md) — Simple Go-based setuid+setgid+setgroups+exec
+- [gql-viewer](architecture/WycliffeAssociates/gql-viewer-architecture.md)
+- [Greek-Lexicon-Prototype](architecture/WycliffeAssociates/Greek-Lexicon-Prototype-architecture.md) — Intern project for a prototype for Ancient Greek translators resources
+- [hubot](architecture/WycliffeAssociates/hubot-architecture.md) — Bot for messaging
+- [install4j-docker](architecture/WycliffeAssociates/install4j-docker-architecture.md) — docker image for install4j builds with bundled jre's
+- [Jar2AppImage](architecture/WycliffeAssociates/Jar2AppImage-architecture.md) — Generic scripts and documentation to take a fat or shadow jar and make it into a linux AppImage
+- [jdenticon-kotlin](architecture/WycliffeAssociates/jdenticon-kotlin-architecture.md)
+- [jetpack-compose-controls](architecture/WycliffeAssociates/jetpack-compose-controls-architecture.md)
+- [JoshuaProjectClient](architecture/WycliffeAssociates/JoshuaProjectClient-architecture.md) — A client for the Joshua Project API
+- [js-starter-kit](architecture/WycliffeAssociates/js-starter-kit-architecture.md) — Basic modern JavaScript project starter kit
+- [kotlin-resource-container](architecture/WycliffeAssociates/kotlin-resource-container-architecture.md) — Kotlin implementation of the Door43 Resource Container
+- [kotlin-tstudio2rc](architecture/WycliffeAssociates/kotlin-tstudio2rc-architecture.md)
+- [lambda-runtime-pypy](architecture/WycliffeAssociates/lambda-runtime-pypy-architecture.md) — AWS Lambda Runtime for PyPy
+- [languageapi](architecture/WycliffeAssociates/languageapi-architecture.md) — monorepo for languageapi
+- [LatexToPDF](architecture/WycliffeAssociates/LatexToPDF-architecture.md) — Small converter shim around pdflatex
+- [lazvard-message](architecture/WycliffeAssociates/lazvard-message-architecture.md) — lightweight AMQP server - Azure Service Bus simulator
+- [line_counter](architecture/WycliffeAssociates/line_counter-architecture.md) — Simple script to count lines of Markdown files in a repo.
+- [LintingResultsViewer](architecture/WycliffeAssociates/LintingResultsViewer-architecture.md)
+- [llm-rag](architecture/WycliffeAssociates/llm-rag-architecture.md)
+- [LocalScriptureRenderingPipeline](architecture/WycliffeAssociates/LocalScriptureRenderingPipeline-architecture.md) — Run the scripture rendering pipeline locally
+- [m2m-ctl](architecture/WycliffeAssociates/m2m-ctl-architecture.md) — Reusable control for N:N relationships in Dynamics 365
+- [MediaYAMLResourceDownloader](architecture/WycliffeAssociates/MediaYAMLResourceDownloader-architecture.md)
+- [megazord](architecture/WycliffeAssociates/megazord-architecture.md)
+- [nimrod-email-agent](architecture/WycliffeAssociates/nimrod-email-agent-architecture.md)
+- [npoi](architecture/WycliffeAssociates/npoi-architecture.md) — a .NET library that can read/write Office formats without Microsoft Office installed. No COM+, no interop.
+- [openfortivpn](architecture/WycliffeAssociates/openfortivpn-architecture.md) — Client for PPP+SSL VPN tunnel services
+- [otter-common](architecture/WycliffeAssociates/otter-common-architecture.md) — Platform agnostic shared library for 8woc108
+- [otter-jvm](architecture/WycliffeAssociates/otter-jvm-architecture.md) — Desktop JVM repository for the Otter project
+- [PipelineWatchdog](architecture/WycliffeAssociates/PipelineWatchdog-architecture.md)
+- [prototype-ephemera](architecture/WycliffeAssociates/prototype-ephemera-architecture.md) — Intern project for a prototype for Ancient Greek translators resources
+- [quick_usfm_converter](architecture/WycliffeAssociates/quick_usfm_converter-architecture.md) — A desktop application that converts usfm to html and docx
+- [quick_usfm_converter_console](architecture/WycliffeAssociates/quick_usfm_converter_console-architecture.md)
+- [RC_MediaDownloader](architecture/WycliffeAssociates/RC_MediaDownloader-architecture.md)
+- [RCEditor](architecture/WycliffeAssociates/RCEditor-architecture.md)
+- [react-dnd-test](architecture/WycliffeAssociates/react-dnd-test-architecture.md) — react-dnd test
+- [read.bibleineverylanguage.org](architecture/WycliffeAssociates/read.bibleineverylanguage.org-architecture.md)
+- [read.bibletranslationtools.org](architecture/WycliffeAssociates/read.bibletranslationtools.org-architecture.md) — Source for read.bibletranslationtools.org
+- [SADirectoryMaker](architecture/WycliffeAssociates/SADirectoryMaker-architecture.md) — mini-project for Summer 2020 to make directory structure for Source Audio
+- [scripture-analysis-api](architecture/WycliffeAssociates/scripture-analysis-api-architecture.md)
+- [scripture-editor-proto](architecture/WycliffeAssociates/scripture-editor-proto-architecture.md)
+- [scripture-sous-chef](architecture/WycliffeAssociates/scripture-sous-chef-architecture.md) — A library for statistical anomaly detection and hygiene for usfm scripture projects.
+- [ScriptureBurrito](architecture/WycliffeAssociates/ScriptureBurrito-architecture.md) — Library for serializing and deserializing scripture burritos
+- [ScriptureRenderingPipeline](architecture/WycliffeAssociates/ScriptureRenderingPipeline-architecture.md) — A rendering pipeline for scripture
+- [ScriptureTemplates](architecture/WycliffeAssociates/ScriptureTemplates-architecture.md) — Templates for read.bibletranslationtools.org
+- [sentry](architecture/WycliffeAssociates/sentry-architecture.md) — Sentry is a cross-platform crash reporting and aggregation platform.
+- [sentry-plugins](architecture/WycliffeAssociates/sentry-plugins-architecture.md) — Official plugins for Sentry server
+- [sharepoint-landing](architecture/WycliffeAssociates/sharepoint-landing-architecture.md) — A public-facing landing page for share point resources
+- [SimpleMailer](architecture/WycliffeAssociates/SimpleMailer-architecture.md) — A small mailer application
+- [software-roadmap](architecture/WycliffeAssociates/software-roadmap-architecture.md)
+- [SpeechToText](architecture/WycliffeAssociates/SpeechToText-architecture.md)
+- [symbolic](architecture/WycliffeAssociates/symbolic-architecture.md) — Stack trace symbolication library written in Rust
+- [te-ap](architecture/WycliffeAssociates/te-ap-architecture.md) — Translation Exchange Docker files for the Access Point container
+- [tE-backend](architecture/WycliffeAssociates/tE-backend-architecture.md)
+- [tE-Base](architecture/WycliffeAssociates/tE-Base-architecture.md) — Docker and configuration files for the translationExchange environment
+- [teAdmin](architecture/WycliffeAssociates/teAdmin-architecture.md) — Admin app for translationExchange
+- [tEAdminAndroid](architecture/WycliffeAssociates/tEAdminAndroid-architecture.md) — Android app for Translation Exchange Admin
+- [Tech-Advance-Training](architecture/WycliffeAssociates/Tech-Advance-Training-architecture.md) — A mirror repo for documentation with Guru
+- [tini](architecture/WycliffeAssociates/tini-architecture.md) — A tiny but valid `init` for containers
+- [tinytag](architecture/WycliffeAssociates/tinytag-architecture.md) — Read music meta data and length of MP3, OGG, OPUS, MP4, M4A, FLAC, WMA and Wave files with python 2 or 3
+- [tools](architecture/WycliffeAssociates/tools-architecture.md) — Door43 tools for rendering and exporting Door43 pages and media.
+- [tr-audio-publishing](architecture/WycliffeAssociates/tr-audio-publishing-architecture.md) — Lambda functions that automates publishing process for audio translation projects
+- [tr-chunk-browser](architecture/WycliffeAssociates/tr-chunk-browser-architecture.md) — A Kotlin, TornadoFX app for working with tR audio files.
+- [tr-crash-reports](architecture/WycliffeAssociates/tr-crash-reports-architecture.md) — A repository to send crash reports
+- [tr-creator](architecture/WycliffeAssociates/tr-creator-architecture.md) — Create TR files
+- [tr-wav](architecture/WycliffeAssociates/tr-wav-architecture.md) — A Kotlin library for working with tR WAV audio file metadata.
+- [tR_Converter](architecture/WycliffeAssociates/tR_Converter-architecture.md) — translationRecorder Converter
+- [translationDatabaseWeb](architecture/WycliffeAssociates/translationDatabaseWeb-architecture.md)
+- [translationExchange](architecture/WycliffeAssociates/translationExchange-architecture.md)
+- [translationExchangeAndroid](architecture/WycliffeAssociates/translationExchangeAndroid-architecture.md) — Translation Exchange webview based app
+- [translationRecorder](architecture/WycliffeAssociates/translationRecorder-architecture.md) — Repository for translationRecorder Android App
+- [translationRecorder-Info](architecture/WycliffeAssociates/translationRecorder-Info-architecture.md) — Documentation for translationRecorder
+- [translationRecorderWeb](architecture/WycliffeAssociates/translationRecorderWeb-architecture.md) — Website for translationRecorder
+- [translationStudio-Info](architecture/WycliffeAssociates/translationStudio-Info-architecture.md) — Source files for translationStudio Documentation
+- [trConverterAndroid](architecture/WycliffeAssociates/trConverterAndroid-architecture.md)
+- [TriggerRepoBuild](architecture/WycliffeAssociates/TriggerRepoBuild-architecture.md) — A small utility to trigger a rerender of a repo through the dcs publication pipeline
+- [trsource-index](architecture/WycliffeAssociates/trsource-index-architecture.md) — Creates an index of tr files
+- [ts-android](architecture/WycliffeAssociates/ts-android-architecture.md) — Bible Translation Tools Writer Application
+- [TS-biel-files](architecture/WycliffeAssociates/TS-biel-files-architecture.md) — These are Ts's files to be publically displayed and exposed on biel
+- [TS-biel-files-playground](architecture/WycliffeAssociates/TS-biel-files-playground-architecture.md) — Playground for external app to manage TS files;
+- [ts-desktop](architecture/WycliffeAssociates/ts-desktop-architecture.md) — Bible Translation Tools Writer Application
+- [TwilioMessageManagement](architecture/WycliffeAssociates/TwilioMessageManagement-architecture.md) — A desktop app to view and delete twilio messages
+- [tx-manager](architecture/WycliffeAssociates/tx-manager-architecture.md) — Codebase for translationConvertor (tX)
+- [Typography](architecture/WycliffeAssociates/Typography-architecture.md) — C# Font Reader (TrueType / OpenType / OpenFont / CFF / woff / woff2) , Glyphs Layout and Rendering
+- [upload-s3-action](architecture/WycliffeAssociates/upload-s3-action-architecture.md) — github action for upload to S3 ☁️
+- [usfm-onion](architecture/WycliffeAssociates/usfm-onion-architecture.md) — A toolkit for working with usfm in rust and wasm
+- [USFM-PHP-Parser](architecture/WycliffeAssociates/USFM-PHP-Parser-architecture.md)
+- [usfm-scanner](architecture/WycliffeAssociates/usfm-scanner-architecture.md)
+- [USFMCopyParallelPassages](architecture/WycliffeAssociates/USFMCopyParallelPassages-architecture.md) — Tool to generate USFM based upon parallel passages
+- [USFMDebugger](architecture/WycliffeAssociates/USFMDebugger-architecture.md) — An application that gives a graphical tree view of how USFMToolsSharp understands a particular USFM document
+- [USFMScannerNet](architecture/WycliffeAssociates/USFMScannerNet-architecture.md) — Usfm Scanner but with .net
+- [USFMToolsDart](architecture/WycliffeAssociates/USFMToolsDart-architecture.md) — A port of USFMToolsSharp to the Dart language
+- [USFMToolsJava](architecture/WycliffeAssociates/USFMToolsJava-architecture.md) — A Java port of USFMToolsSharp
+- [USFMToolsSharp](architecture/WycliffeAssociates/USFMToolsSharp-architecture.md) — A USFM parser for c#
+- [USFMToolsSharp.Linter](architecture/WycliffeAssociates/USFMToolsSharp.Linter-architecture.md) — A linter for USFM that uses USFMToolsSharp
+- [USFMToolsSharp.Renderers.Csv](architecture/WycliffeAssociates/USFMToolsSharp.Renderers.Csv-architecture.md) — A CSV renderer for USFMToolsSharp
+- [USFMToolsSharp.Renderers.Docx](architecture/WycliffeAssociates/USFMToolsSharp.Renderers.Docx-architecture.md) — Docx Renderer for USFM
+- [USFMToolsSharp.Renderers.HTML](architecture/WycliffeAssociates/USFMToolsSharp.Renderers.HTML-architecture.md) — HTML Renderer for USFM
+- [USFMToolsSharp.Renderers.JSON](architecture/WycliffeAssociates/USFMToolsSharp.Renderers.JSON-architecture.md) — JSON Renderer for USFM
+- [USFMToolsSharp.Renderers.Latex](architecture/WycliffeAssociates/USFMToolsSharp.Renderers.Latex-architecture.md) — Latex renderer for USFM
+- [USFMToolsSharp.Renderers.USFM](architecture/WycliffeAssociates/USFMToolsSharp.Renderers.USFM-architecture.md) — A USFM renderer for USFM
+- [USFMToolsSharp.Renderers.USX](architecture/WycliffeAssociates/USFMToolsSharp.Renderers.USX-architecture.md) — A USX renderer for USFM
+- [USFMVSCode](architecture/WycliffeAssociates/USFMVSCode-architecture.md) — Visual Studio Code plugin for USFM Support
+- [uwadmin](architecture/WycliffeAssociates/uwadmin-architecture.md) — Code for uW Admin site
+- [vmast-docker](architecture/WycliffeAssociates/vmast-docker-architecture.md)
+- [WACS](architecture/WycliffeAssociates/WACS-architecture.md)
+- [wacs-docker](architecture/WycliffeAssociates/wacs-docker-architecture.md)
+- [WACS-docker-old](architecture/WycliffeAssociates/WACS-docker-old-architecture.md)
+- [WACS-GraphQL](architecture/WycliffeAssociates/WACS-GraphQL-architecture.md)
+- [wacs_tn_line_counter](architecture/WycliffeAssociates/wacs_tn_line_counter-architecture.md)
+- [wahubot](architecture/WycliffeAssociates/wahubot-architecture.md) — WAHubot
+- [wazuh-tools](architecture/WycliffeAssociates/wazuh-tools-architecture.md) — Useful scripts for those administering Wazuh
+- [webhook-listener](architecture/WycliffeAssociates/webhook-listener-architecture.md)
+- [xrm-mock](architecture/WycliffeAssociates/xrm-mock-architecture.md) — :books: A mock implementation of the Xrm.Page object model. Written in TypeScript against @types/xrm definitions.
+- [xrm-mock-generator](architecture/WycliffeAssociates/xrm-mock-generator-architecture.md) — :book:  Generates a mock Xrm.Page object.  Commonly used by xrm-mock to test Dynamics 365 client-side customisations.
+

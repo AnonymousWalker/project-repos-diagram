@@ -1,0 +1,21 @@
+# Local / CI artifacts
+_clones/
+Orature/
+Fetcher/
+__pycache__/
+*.pyc
+.venv/
+.virtual/
+.env
+
+# Editor
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Temp
+_*.log
+_probe_*.py
+_retry_*.py
+_rate_check.py

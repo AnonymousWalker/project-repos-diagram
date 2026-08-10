@@ -1,0 +1,91 @@
+name: Regenerate architecture diagrams
+
+on:
+  schedule:
+    # Twice daily UTC
+    - cron: "0 6,18 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Generation mode"
+        required: true
+        default: changed-only
+        type: choice
+        options:
+          - changed-only
+          - full
+      only:
+        description: "Optional single repo Org/Name (overrides mode when set)"
+        required: false
+        default: ""
+  repository_dispatch:
+    types: [repo-default-branch-changed]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: architecture-regen
+  cancel-in-progress: false
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Refresh public repo catalog
+        if: ${{ github.event_name != 'repository_dispatch' && (github.event_name != 'workflow_dispatch' || inputs.only == '') }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python fetch_repos.py
+
+      - name: Generate architecture docs
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          INPUT_MODE: ${{ github.event.inputs.mode || 'changed-only' }}
+          INPUT_ONLY: ${{ github.event.inputs.only || '' }}
+          DISPATCH_REPO: ${{ github.event.client_payload.repo || '' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          ONLY="${INPUT_ONLY}"
+          if [[ "${EVENT_NAME}" == "repository_dispatch" ]]; then
+            ONLY="${DISPATCH_REPO}"
+          fi
+
+          if [[ -n "${ONLY}" ]]; then
+            echo "Running for single repo: ${ONLY}"
+            python generate_architecture_docs.py --only "${ONLY}" --force
+          elif [[ "${INPUT_MODE}" == "full" ]]; then
+            echo "Running full regeneration"
+            python generate_architecture_docs.py --force
+          else
+            echo "Running changed-only regeneration"
+            python generate_architecture_docs.py --changed-only
+          fi
+
+      - name: Commit and push if changed
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          # Keep clones and local junk out even if ignore is bypassed
+          git reset HEAD -- _clones Orature Fetcher __pycache__ 2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "No diagram changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: refresh architecture diagrams"
+          git push

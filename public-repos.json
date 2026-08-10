@@ -1,0 +1,1677 @@
+{
+  "repos": [
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "AudioCompressor",
+      "url": "https://github.com/Bible-Translation-Tools/AudioCompressor",
+      "default_branch": "master",
+      "description": ""
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "AudioCompressorAndroid",
+      "url": "https://github.com/Bible-Translation-Tools/AudioCompressorAndroid",
+      "default_branch": "master",
+      "description": "Converts a zip of mp3 to wav and vice versa"
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "audiolib",
+      "url": "https://github.com/Bible-Translation-Tools/audiolib",
+      "default_branch": "master",
+      "description": ""
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "AudioScripts",
+      "url": "https://github.com/Bible-Translation-Tools/AudioScripts",
+      "default_branch": "main",
+      "description": "Various scripts to examine audio and cue content"
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "base-javafx-repo",
+      "url": "https://github.com/Bible-Translation-Tools/base-javafx-repo",
+      "default_branch": "default",
+      "description": "A simple, preconfigured gradle project to use as a starting point for new javafx projects"
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "base-kotlin-repo",
+      "url": "https://github.com/Bible-Translation-Tools/base-kotlin-repo",
+      "default_branch": "default",
+      "description": "A simple, preconfigured gradle project to use as a starting point for new kotlin projects"
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "BIEL-mobile-app",
+      "url": "https://github.com/Bible-Translation-Tools/BIEL-mobile-app",
+      "default_branch": "main",
+      "description": ""
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "BTT-Exchanger",
+      "url": "https://github.com/Bible-Translation-Tools/BTT-Exchanger",
+      "default_branch": "dev",
+      "description": "Release repo for Translation Exchange project"
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "BTT-Recorder",
+      "url": "https://github.com/Bible-Translation-Tools/BTT-Recorder",
+      "default_branch": "master",
+      "description": "Repository for BTT Recorder Android App"
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "BTT-Writer",
+      "url": "https://github.com/Bible-Translation-Tools/BTT-Writer",
+      "default_branch": "default",
+      "description": "BTT-Writer Multiplatform"
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "BTT-Writer-Android",
+      "url": "https://github.com/Bible-Translation-Tools/BTT-Writer-Android",
+      "default_branch": "master",
+      "description": ""
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "BTT-Writer-Desktop",
+      "url": "https://github.com/Bible-Translation-Tools/BTT-Writer-Desktop",
+      "default_branch": "master",
+      "description": "Bible Translation Tools Writer Application"
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "BTTConverter",
+      "url": "https://github.com/Bible-Translation-Tools/BTTConverter",
+      "default_branch": "master",
+      "description": "translationRecorder Converter"
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "BTTConverterAndroid",
+      "url": "https://github.com/Bible-Translation-Tools/BTTConverterAndroid",
+      "default_branch": "master",
+      "description": ""
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "BTTConverterDesktop",
+      "url": "https://github.com/Bible-Translation-Tools/BTTConverterDesktop",
+      "default_branch": "master",
+      "description": "BTTConverter for Desktop"
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "chunking-prototype",
+      "url": "https://github.com/Bible-Translation-Tools/chunking-prototype",
+      "default_branch": "default",
+      "description": "Downloader Specifically for the Orature Chunking Prototype"
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "convert-broadcast-wav",
+      "url": "https://github.com/Bible-Translation-Tools/convert-broadcast-wav",
+      "default_branch": "default",
+      "description": "Converts wav files with header extensions to normal wav files"
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "cue2timing",
+      "url": "https://github.com/Bible-Translation-Tools/cue2timing",
+      "default_branch": "default",
+      "description": "Converts cue files to audacity timing files"
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "doc-scanner",
+      "url": "https://github.com/Bible-Translation-Tools/doc-scanner",
+      "default_branch": "main",
+      "description": "Simple Doc Scanner with Google's ML kit object detection library"
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "Fetcher",
+      "url": "https://github.com/Bible-Translation-Tools/Fetcher",
+      "default_branch": "audio.bibleineverylanguage.org",
+      "description": "An app/library for downloading Scritpure Source Audio for Translation"
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "fetcher-pipeline",
+      "url": "https://github.com/Bible-Translation-Tools/fetcher-pipeline",
+      "default_branch": "master",
+      "description": ""
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "install4j-update-demo",
+      "url": "https://github.com/Bible-Translation-Tools/install4j-update-demo",
+      "default_branch": "default",
+      "description": ""
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "interpresure_editor",
+      "url": "https://github.com/Bible-Translation-Tools/interpresure_editor",
+      "default_branch": "main",
+      "description": ""
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "interpresure_scripture_analysis",
+      "url": "https://github.com/Bible-Translation-Tools/interpresure_scripture_analysis",
+      "default_branch": "main",
+      "description": "Agentic analysis of translation drafts"
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "jump3r",
+      "url": "https://github.com/Bible-Translation-Tools/jump3r",
+      "default_branch": "master",
+      "description": "Java mp3 codec library - a copy of https://sourceforge.net/projects/jump3r/ ."
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "kmp-gogs-client",
+      "url": "https://github.com/Bible-Translation-Tools/kmp-gogs-client",
+      "default_branch": "main",
+      "description": "A client library for interacting with the Gogs REST api."
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "kmp-logger",
+      "url": "https://github.com/Bible-Translation-Tools/kmp-logger",
+      "default_branch": "master",
+      "description": "A better logging tool for android"
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "kmp-resource-catalog-client",
+      "url": "https://github.com/Bible-Translation-Tools/kmp-resource-catalog-client",
+      "default_branch": "default",
+      "description": ""
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "kmp-resource-container",
+      "url": "https://github.com/Bible-Translation-Tools/kmp-resource-container",
+      "default_branch": "master",
+      "description": "A utility for managing Door43 Resource Containers"
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "kotlin-recorder2rc",
+      "url": "https://github.com/Bible-Translation-Tools/kotlin-recorder2rc",
+      "default_branch": "master",
+      "description": ""
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "kotlin-scripture-alignment",
+      "url": "https://github.com/Bible-Translation-Tools/kotlin-scripture-alignment",
+      "default_branch": "main",
+      "description": "A kotlin library for the Scripture Burrito Alignment format"
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "kotlin-scripture-burrito",
+      "url": "https://github.com/Bible-Translation-Tools/kotlin-scripture-burrito",
+      "default_branch": "default",
+      "description": "A Kotlin library for Scripture Burrito"
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "kotlin-vtt",
+      "url": "https://github.com/Bible-Translation-Tools/kotlin-vtt",
+      "default_branch": "main",
+      "description": "A WebVTT Parser for Kotlin/JVM"
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "maui",
+      "url": "https://github.com/Bible-Translation-Tools/maui",
+      "default_branch": "dev",
+      "description": ""
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "node-door43-client",
+      "url": "https://github.com/Bible-Translation-Tools/node-door43-client",
+      "default_branch": "master",
+      "description": "A client library for interacting with the Door43 Catalog"
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "node-gogs-client",
+      "url": "https://github.com/Bible-Translation-Tools/node-gogs-client",
+      "default_branch": "master",
+      "description": "A client library for interacting with the gogs REST api"
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "OQuA",
+      "url": "https://github.com/Bible-Translation-Tools/OQuA",
+      "default_branch": "dev",
+      "description": ""
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "Orature",
+      "url": "https://github.com/Bible-Translation-Tools/Orature",
+      "default_branch": "dev",
+      "description": "Orature, an application for creating Narrations and Translations of Audio Bibles, Books, Resources, Commentaries, etc."
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "orature-nightly",
+      "url": "https://github.com/Bible-Translation-Tools/orature-nightly",
+      "default_branch": "master",
+      "description": "Github Pages webapp for accessing Orature Builds"
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "Orature-Plugin",
+      "url": "https://github.com/Bible-Translation-Tools/Orature-Plugin",
+      "default_branch": "main",
+      "description": "A base repo to create an audio plugin for Orature"
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "Reaper-Orature-Plugin",
+      "url": "https://github.com/Bible-Translation-Tools/Reaper-Orature-Plugin",
+      "default_branch": "master",
+      "description": ""
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "scripture-audio-validator",
+      "url": "https://github.com/Bible-Translation-Tools/scripture-audio-validator",
+      "default_branch": "aw-dev",
+      "description": ""
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "scripture-burrito",
+      "url": "https://github.com/Bible-Translation-Tools/scripture-burrito",
+      "default_branch": "wycliffe-associates",
+      "description": "Scripture Burrito Schema & Docs 🌯"
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "ScriptureAppBuilder-pipeline",
+      "url": "https://github.com/Bible-Translation-Tools/ScriptureAppBuilder-pipeline",
+      "default_branch": "base",
+      "description": ""
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "SeekableJLayer",
+      "url": "https://github.com/Bible-Translation-Tools/SeekableJLayer",
+      "default_branch": "master",
+      "description": "An upload of a jlayer fork with seek capabilities"
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "Spotlight",
+      "url": "https://github.com/Bible-Translation-Tools/Spotlight",
+      "default_branch": "master",
+      "description": ""
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "storage-directory-specification",
+      "url": "https://github.com/Bible-Translation-Tools/storage-directory-specification",
+      "default_branch": "master",
+      "description": "The specification for the directory structure of media storage"
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "sun-lessons",
+      "url": "https://github.com/Bible-Translation-Tools/sun-lessons",
+      "default_branch": "main",
+      "description": ""
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "tornadofx-demo-app",
+      "url": "https://github.com/Bible-Translation-Tools/tornadofx-demo-app",
+      "default_branch": "main",
+      "description": "A demo application using torandofx"
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "tornadofx2",
+      "url": "https://github.com/Bible-Translation-Tools/tornadofx2",
+      "default_branch": "master",
+      "description": "TornadoFX 2.0"
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "tr-source-server",
+      "url": "https://github.com/Bible-Translation-Tools/tr-source-server",
+      "default_branch": "master",
+      "description": "Dockerized server to serve up tr source audio files"
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "Transcriber",
+      "url": "https://github.com/Bible-Translation-Tools/Transcriber",
+      "default_branch": "default",
+      "description": ""
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "USFM-Converter",
+      "url": "https://github.com/Bible-Translation-Tools/USFM-Converter",
+      "default_branch": "release",
+      "description": "Tool for converting USFM to readable formats like HTML and DOCX"
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "usfm-tools",
+      "url": "https://github.com/Bible-Translation-Tools/usfm-tools",
+      "default_branch": "default",
+      "description": "Tools for converting, cleaning, and checking Scripture text"
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "usfmtools-js",
+      "url": "https://github.com/Bible-Translation-Tools/usfmtools-js",
+      "default_branch": "main",
+      "description": ""
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "versification_json",
+      "url": "https://github.com/Bible-Translation-Tools/versification_json",
+      "default_branch": "master",
+      "description": "A JSON expression of the Paratext versification.vrs file."
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "wat-worker",
+      "url": "https://github.com/Bible-Translation-Tools/wat-worker",
+      "default_branch": "main",
+      "description": "Cloudflare worker app to process singleton words with AI models"
+    },
+    {
+      "org": "Bible-Translation-Tools",
+      "name": "WordAnalysisTool",
+      "url": "https://github.com/Bible-Translation-Tools/WordAnalysisTool",
+      "default_branch": "master",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "5wocbot",
+      "url": "https://github.com/WycliffeAssociates/5wocbot",
+      "default_branch": "master",
+      "description": "5 Weeks of Code Hubot"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "8woc",
+      "url": "https://github.com/WycliffeAssociates/8woc",
+      "default_branch": "develop",
+      "description": "Repository for the 8-weeks-of-code internship program"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "8woc2018_reversi",
+      "url": "https://github.com/WycliffeAssociates/8woc2018_reversi",
+      "default_branch": "master",
+      "description": "Reversi challenge for 8woc 2018"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "8woc_2017_demo",
+      "url": "https://github.com/WycliffeAssociates/8woc_2017_demo",
+      "default_branch": "master",
+      "description": "Demo repo for 8WoC 2017"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "8wocMiniChallenge",
+      "url": "https://github.com/WycliffeAssociates/8wocMiniChallenge",
+      "default_branch": "master",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "analyze-catalog",
+      "url": "https://github.com/WycliffeAssociates/analyze-catalog",
+      "default_branch": "master",
+      "description": "Browse and process two unfoldingWord catalog datasets."
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "android-gogs-client",
+      "url": "https://github.com/WycliffeAssociates/android-gogs-client",
+      "default_branch": "master",
+      "description": "A client library for interacting with the Gogs REST api."
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "android-gogs-ui",
+      "url": "https://github.com/WycliffeAssociates/android-gogs-ui",
+      "default_branch": "master",
+      "description": "UI for login and profile creation for Door43 gogs"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "apex",
+      "url": "https://github.com/WycliffeAssociates/apex",
+      "default_branch": "master",
+      "description": "Old apex/apex"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "ArchiveOfHolding",
+      "url": "https://github.com/WycliffeAssociates/ArchiveOfHolding",
+      "default_branch": "master",
+      "description": "An uncompressed archive format with a JSON Table of Contents Header"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "astro-live-reader",
+      "url": "https://github.com/WycliffeAssociates/astro-live-reader",
+      "default_branch": "master",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "audio-bible-player",
+      "url": "https://github.com/WycliffeAssociates/audio-bible-player",
+      "default_branch": "prod",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "audio_sb_vtt_proposal",
+      "url": "https://github.com/WycliffeAssociates/audio_sb_vtt_proposal",
+      "default_branch": "u23003",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "AudioSABbuilder",
+      "url": "https://github.com/WycliffeAssociates/AudioSABbuilder",
+      "default_branch": "master",
+      "description": "python app for making an Android app out of chapter based Scripture Audio mp3s"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "auto-irg-experimental",
+      "url": "https://github.com/WycliffeAssociates/auto-irg-experimental",
+      "default_branch": "dev",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "AzureStaticSiteHoster",
+      "url": "https://github.com/WycliffeAssociates/AzureStaticSiteHoster",
+      "default_branch": "master",
+      "description": "A small web application to make static websites in local azure storage emulators much better to use"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "badge-cop",
+      "url": "https://github.com/WycliffeAssociates/badge-cop",
+      "default_branch": "master",
+      "description": "badge generation web server"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "badge-markdown-generator",
+      "url": "https://github.com/WycliffeAssociates/badge-markdown-generator",
+      "default_branch": "master",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "badge-sentinal",
+      "url": "https://github.com/WycliffeAssociates/badge-sentinal",
+      "default_branch": "master",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "basic-tools-site",
+      "url": "https://github.com/WycliffeAssociates/basic-tools-site",
+      "default_branch": "master",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "bible_getter",
+      "url": "https://github.com/WycliffeAssociates/bible_getter",
+      "default_branch": "master",
+      "description": "Get bible in usfm format from wordproject.org and bible.com"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "bibletranslationtools",
+      "url": "https://github.com/WycliffeAssociates/bibletranslationtools",
+      "default_branch": "master",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "biel-customize-print-webapp",
+      "url": "https://github.com/WycliffeAssociates/biel-customize-print-webapp",
+      "default_branch": "master",
+      "description": "Web app to customize PDF, DOCX, etc. rendering for repos on BIEL."
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "biel-files-index",
+      "url": "https://github.com/WycliffeAssociates/biel-files-index",
+      "default_branch": "master",
+      "description": "Creates an index of the biel-files resources for import to the BIEL website."
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "biel-frontend",
+      "url": "https://github.com/WycliffeAssociates/biel-frontend",
+      "default_branch": "prod",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "breakpad",
+      "url": "https://github.com/WycliffeAssociates/breakpad",
+      "default_branch": "master",
+      "description": "Mirror of Google Breakpad project"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "brightcove-api-vidoes-list",
+      "url": "https://github.com/WycliffeAssociates/brightcove-api-vidoes-list",
+      "default_branch": "master",
+      "description": "Fall Hackathon 2022 project to download list of videos from Brigthcove api"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "btt-recorder-docs",
+      "url": "https://github.com/WycliffeAssociates/btt-recorder-docs",
+      "default_branch": "master",
+      "description": "BTT Recorder documentation"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "btt-writer-docs",
+      "url": "https://github.com/WycliffeAssociates/btt-writer-docs",
+      "default_branch": "master",
+      "description": "Documentation for BTT Writer"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "BTT_Writer_Resource_Updater",
+      "url": "https://github.com/WycliffeAssociates/BTT_Writer_Resource_Updater",
+      "default_branch": "master",
+      "description": "A script to create an updated zip of the resource_container portion of BTT_Writer"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "BTTWriterLib",
+      "url": "https://github.com/WycliffeAssociates/BTTWriterLib",
+      "default_branch": "master",
+      "description": "A set of utilities for Reading files from Bible Translation Tools Writer"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "chromeabletabpane",
+      "url": "https://github.com/WycliffeAssociates/chromeabletabpane",
+      "default_branch": "master",
+      "description": "A tab pane for javafx that allows inserting ui controls into the tab header"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "compact_tn",
+      "url": "https://github.com/WycliffeAssociates/compact_tn",
+      "default_branch": "main",
+      "description": "Script to generate a compact tN."
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "ContourMemberTools",
+      "url": "https://github.com/WycliffeAssociates/ContourMemberTools",
+      "default_branch": "master",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "CreateCSVFromUSFM",
+      "url": "https://github.com/WycliffeAssociates/CreateCSVFromUSFM",
+      "default_branch": "master",
+      "description": "Create a CSV from a set of USFM files"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "CRMAssemblyLoader",
+      "url": "https://github.com/WycliffeAssociates/CRMAssemblyLoader",
+      "default_branch": "master",
+      "description": "An assembly CD tool for Dynamics CRM"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "CRMAssemblyValidator",
+      "url": "https://github.com/WycliffeAssociates/CRMAssemblyValidator",
+      "default_branch": "master",
+      "description": "A utility to help catch common mistakes in assemblies for dynamics crm"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "CRMAsyncHealthChecker",
+      "url": "https://github.com/WycliffeAssociates/CRMAsyncHealthChecker",
+      "default_branch": "master",
+      "description": "A utility to check the amount of async operations waiting and alert if they are above a limit"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "CRMImporter",
+      "url": "https://github.com/WycliffeAssociates/CRMImporter",
+      "default_branch": "master",
+      "description": "A data import library for dynamics crm"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "CRMIncrementVersionNumber",
+      "url": "https://github.com/WycliffeAssociates/CRMIncrementVersionNumber",
+      "default_branch": "master",
+      "description": "Increments the version number of a CRM solution"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "CRMLastLoginReport",
+      "url": "https://github.com/WycliffeAssociates/CRMLastLoginReport",
+      "default_branch": "master",
+      "description": "A utility to generate a report of when somebody last logged into Dynamics CRM"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "CRMReportDeploy",
+      "url": "https://github.com/WycliffeAssociates/CRMReportDeploy",
+      "default_branch": "master",
+      "description": "A Continuous Deployment tool for CRM reports"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "CRMSolutionExporter",
+      "url": "https://github.com/WycliffeAssociates/CRMSolutionExporter",
+      "default_branch": "master",
+      "description": "A utility to export solution files from dynamics crm"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "CRMSolutionImporter",
+      "url": "https://github.com/WycliffeAssociates/CRMSolutionImporter",
+      "default_branch": "master",
+      "description": "A utitlity to import solutions into CRM"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "CRMUtils",
+      "url": "https://github.com/WycliffeAssociates/CRMUtils",
+      "default_branch": "master",
+      "description": "A set of utilities for interacting with Dynamics CRM"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "CRMViewLoader",
+      "url": "https://github.com/WycliffeAssociates/CRMViewLoader",
+      "default_branch": "master",
+      "description": "A view loader for Dynamics CRM"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "CRMWebResourceUpload",
+      "url": "https://github.com/WycliffeAssociates/CRMWebResourceUpload",
+      "default_branch": "master",
+      "description": "A utility to upload and create web resources to dynamics crm"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "CRMWorkflowToSentry",
+      "url": "https://github.com/WycliffeAssociates/CRMWorkflowToSentry",
+      "default_branch": "master",
+      "description": "Send failed workflows to sentry"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "cro-hackathon-2024-10",
+      "url": "https://github.com/WycliffeAssociates/cro-hackathon-2024-10",
+      "default_branch": "master",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "cro-usfm-linter",
+      "url": "https://github.com/WycliffeAssociates/cro-usfm-linter",
+      "default_branch": "master",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "cue-sheet-manager",
+      "url": "https://github.com/WycliffeAssociates/cue-sheet-manager",
+      "default_branch": "master",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "cuelib",
+      "url": "https://github.com/WycliffeAssociates/cuelib",
+      "default_branch": "master",
+      "description": "A copy of the now non maintained library for manipulating CUE sheets."
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "d43-catalog",
+      "url": "https://github.com/WycliffeAssociates/d43-catalog",
+      "default_branch": "develop",
+      "description": "Lambda functions for the Door43 Catalog."
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "DataverseMetadataMCPServer",
+      "url": "https://github.com/WycliffeAssociates/DataverseMetadataMCPServer",
+      "default_branch": "master",
+      "description": "An MCP server that can be used to query Dataverse/Power Platform metadata"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "DFTCheck",
+      "url": "https://github.com/WycliffeAssociates/DFTCheck",
+      "default_branch": "main",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "DOC",
+      "url": "https://github.com/WycliffeAssociates/DOC",
+      "default_branch": "doc.bibleineverylanguage.org",
+      "description": "Document Organization and Combination - Interleaving Multiple Scripture Resources Backend and Frontend"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "DOC-UI",
+      "url": "https://github.com/WycliffeAssociates/DOC-UI",
+      "default_branch": "develop",
+      "description": "Frontend for the DOC/IRG project"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "docker-sentry",
+      "url": "https://github.com/WycliffeAssociates/docker-sentry",
+      "default_branch": "master",
+      "description": "Docker Official Image packaging for Sentry"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "DOT-mobile",
+      "url": "https://github.com/WycliffeAssociates/DOT-mobile",
+      "default_branch": "master",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "Dot-Tools",
+      "url": "https://github.com/WycliffeAssociates/Dot-Tools",
+      "default_branch": "master",
+      "description": "Utilities and Tools for the dot ecosystem"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "dot-web",
+      "url": "https://github.com/WycliffeAssociates/dot-web",
+      "default_branch": "master",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "ExportViewUtility",
+      "url": "https://github.com/WycliffeAssociates/ExportViewUtility",
+      "default_branch": "master",
+      "description": "A utility to email a view from Dynamics CRM"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "ExtractLetters",
+      "url": "https://github.com/WycliffeAssociates/ExtractLetters",
+      "default_branch": "master",
+      "description": "8Woc 2017 Mini Project"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "fake-xrm",
+      "url": "https://github.com/WycliffeAssociates/fake-xrm",
+      "default_branch": "master",
+      "description": "Mocking framework for client-side Dynamics365"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "Fetcher_utils",
+      "url": "https://github.com/WycliffeAssociates/Fetcher_utils",
+      "default_branch": "master",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "FontIndexer",
+      "url": "https://github.com/WycliffeAssociates/FontIndexer",
+      "default_branch": "master",
+      "description": "An indexer for mapping unicode to fonts"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "gogs-custom",
+      "url": "https://github.com/WycliffeAssociates/gogs-custom",
+      "default_branch": "content.bibletranslationtools.org",
+      "description": "Gitea customizations"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "gosu",
+      "url": "https://github.com/WycliffeAssociates/gosu",
+      "default_branch": "master",
+      "description": "Simple Go-based setuid+setgid+setgroups+exec"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "gql-viewer",
+      "url": "https://github.com/WycliffeAssociates/gql-viewer",
+      "default_branch": "master",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "Greek-Lexicon-Prototype",
+      "url": "https://github.com/WycliffeAssociates/Greek-Lexicon-Prototype",
+      "default_branch": "master",
+      "description": "Intern project for a prototype for Ancient Greek translators resources"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "hubot",
+      "url": "https://github.com/WycliffeAssociates/hubot",
+      "default_branch": "master",
+      "description": "Bot for messaging"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "install4j-docker",
+      "url": "https://github.com/WycliffeAssociates/install4j-docker",
+      "default_branch": "default",
+      "description": "docker image for install4j builds with bundled jre's"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "Jar2AppImage",
+      "url": "https://github.com/WycliffeAssociates/Jar2AppImage",
+      "default_branch": "master",
+      "description": "Generic scripts and documentation to take a fat or shadow jar and make it into a linux AppImage"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "jdenticon-kotlin",
+      "url": "https://github.com/WycliffeAssociates/jdenticon-kotlin",
+      "default_branch": "master",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "jetpack-compose-controls",
+      "url": "https://github.com/WycliffeAssociates/jetpack-compose-controls",
+      "default_branch": "default",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "JoshuaProjectClient",
+      "url": "https://github.com/WycliffeAssociates/JoshuaProjectClient",
+      "default_branch": "master",
+      "description": "A client for the Joshua Project API"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "js-starter-kit",
+      "url": "https://github.com/WycliffeAssociates/js-starter-kit",
+      "default_branch": "master",
+      "description": "Basic modern JavaScript project starter kit"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "kotlin-resource-container",
+      "url": "https://github.com/WycliffeAssociates/kotlin-resource-container",
+      "default_branch": "dev",
+      "description": "Kotlin implementation of the Door43 Resource Container"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "kotlin-tstudio2rc",
+      "url": "https://github.com/WycliffeAssociates/kotlin-tstudio2rc",
+      "default_branch": "main",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "lambda-runtime-pypy",
+      "url": "https://github.com/WycliffeAssociates/lambda-runtime-pypy",
+      "default_branch": "wa-config",
+      "description": "AWS Lambda Runtime for PyPy"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "languageapi",
+      "url": "https://github.com/WycliffeAssociates/languageapi",
+      "default_branch": "prod",
+      "description": "monorepo for languageapi"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "LatexToPDF",
+      "url": "https://github.com/WycliffeAssociates/LatexToPDF",
+      "default_branch": "master",
+      "description": "Small converter shim around pdflatex"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "lazvard-message",
+      "url": "https://github.com/WycliffeAssociates/lazvard-message",
+      "default_branch": "main",
+      "description": "lightweight AMQP server - Azure Service Bus simulator"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "line_counter",
+      "url": "https://github.com/WycliffeAssociates/line_counter",
+      "default_branch": "master",
+      "description": "Simple script to count lines of Markdown files in a repo."
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "LintingResultsViewer",
+      "url": "https://github.com/WycliffeAssociates/LintingResultsViewer",
+      "default_branch": "master",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "llm-rag",
+      "url": "https://github.com/WycliffeAssociates/llm-rag",
+      "default_branch": "llm-rag.walink.org",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "LocalScriptureRenderingPipeline",
+      "url": "https://github.com/WycliffeAssociates/LocalScriptureRenderingPipeline",
+      "default_branch": "master",
+      "description": "Run the scripture rendering pipeline locally"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "m2m-ctl",
+      "url": "https://github.com/WycliffeAssociates/m2m-ctl",
+      "default_branch": "master",
+      "description": "Reusable control for N:N relationships in Dynamics 365"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "MediaYAMLResourceDownloader",
+      "url": "https://github.com/WycliffeAssociates/MediaYAMLResourceDownloader",
+      "default_branch": "master",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "megazord",
+      "url": "https://github.com/WycliffeAssociates/megazord",
+      "default_branch": "master",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "nimrod-email-agent",
+      "url": "https://github.com/WycliffeAssociates/nimrod-email-agent",
+      "default_branch": "master",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "npoi",
+      "url": "https://github.com/WycliffeAssociates/npoi",
+      "default_branch": "master",
+      "description": "a .NET library that can read/write Office formats without Microsoft Office installed. No COM+, no interop."
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "openfortivpn",
+      "url": "https://github.com/WycliffeAssociates/openfortivpn",
+      "default_branch": "master",
+      "description": "Client for PPP+SSL VPN tunnel services"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "otter-common",
+      "url": "https://github.com/WycliffeAssociates/otter-common",
+      "default_branch": "dev",
+      "description": "Platform agnostic shared library for 8woc108"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "otter-jvm",
+      "url": "https://github.com/WycliffeAssociates/otter-jvm",
+      "default_branch": "dev",
+      "description": "Desktop JVM repository for the Otter project"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "PipelineWatchdog",
+      "url": "https://github.com/WycliffeAssociates/PipelineWatchdog",
+      "default_branch": "master",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "prototype-ephemera",
+      "url": "https://github.com/WycliffeAssociates/prototype-ephemera",
+      "default_branch": "gwt.bibleineverylanguage.org",
+      "description": "Intern project for a prototype for Ancient Greek translators resources"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "quick_usfm_converter",
+      "url": "https://github.com/WycliffeAssociates/quick_usfm_converter",
+      "default_branch": "master",
+      "description": "A desktop application that converts usfm to html and docx"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "quick_usfm_converter_console",
+      "url": "https://github.com/WycliffeAssociates/quick_usfm_converter_console",
+      "default_branch": "master",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "RC_MediaDownloader",
+      "url": "https://github.com/WycliffeAssociates/RC_MediaDownloader",
+      "default_branch": "master",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "RCEditor",
+      "url": "https://github.com/WycliffeAssociates/RCEditor",
+      "default_branch": "master",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "react-dnd-test",
+      "url": "https://github.com/WycliffeAssociates/react-dnd-test",
+      "default_branch": "master",
+      "description": "react-dnd test"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "read.bibleineverylanguage.org",
+      "url": "https://github.com/WycliffeAssociates/read.bibleineverylanguage.org",
+      "default_branch": "read-prod",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "read.bibletranslationtools.org",
+      "url": "https://github.com/WycliffeAssociates/read.bibletranslationtools.org",
+      "default_branch": "develop",
+      "description": "Source for read.bibletranslationtools.org"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "SADirectoryMaker",
+      "url": "https://github.com/WycliffeAssociates/SADirectoryMaker",
+      "default_branch": "master",
+      "description": "mini-project for Summer 2020 to make directory structure for Source Audio"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "scripture-analysis-api",
+      "url": "https://github.com/WycliffeAssociates/scripture-analysis-api",
+      "default_branch": "main",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "scripture-editor-proto",
+      "url": "https://github.com/WycliffeAssociates/scripture-editor-proto",
+      "default_branch": "master",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "scripture-sous-chef",
+      "url": "https://github.com/WycliffeAssociates/scripture-sous-chef",
+      "default_branch": "master",
+      "description": "A library for statistical anomaly detection and hygiene for usfm scripture projects."
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "ScriptureBurrito",
+      "url": "https://github.com/WycliffeAssociates/ScriptureBurrito",
+      "default_branch": "master",
+      "description": "Library for serializing and deserializing scripture burritos"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "ScriptureRenderingPipeline",
+      "url": "https://github.com/WycliffeAssociates/ScriptureRenderingPipeline",
+      "default_branch": "master",
+      "description": "A rendering pipeline for scripture"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "ScriptureTemplates",
+      "url": "https://github.com/WycliffeAssociates/ScriptureTemplates",
+      "default_branch": "master",
+      "description": "Templates for read.bibletranslationtools.org"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "sentry",
+      "url": "https://github.com/WycliffeAssociates/sentry",
+      "default_branch": "master",
+      "description": "Sentry is a cross-platform crash reporting and aggregation platform."
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "sentry-plugins",
+      "url": "https://github.com/WycliffeAssociates/sentry-plugins",
+      "default_branch": "master",
+      "description": "Official plugins for Sentry server"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "sharepoint-landing",
+      "url": "https://github.com/WycliffeAssociates/sharepoint-landing",
+      "default_branch": "master",
+      "description": "A public-facing landing page for share point resources"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "SimpleMailer",
+      "url": "https://github.com/WycliffeAssociates/SimpleMailer",
+      "default_branch": "master",
+      "description": "A small mailer application"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "software-roadmap",
+      "url": "https://github.com/WycliffeAssociates/software-roadmap",
+      "default_branch": "master",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "SpeechToText",
+      "url": "https://github.com/WycliffeAssociates/SpeechToText",
+      "default_branch": "master",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "symbolic",
+      "url": "https://github.com/WycliffeAssociates/symbolic",
+      "default_branch": "master",
+      "description": "Stack trace symbolication library written in Rust"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "te-ap",
+      "url": "https://github.com/WycliffeAssociates/te-ap",
+      "default_branch": "master",
+      "description": "Translation Exchange Docker files for the Access Point container"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "tE-backend",
+      "url": "https://github.com/WycliffeAssociates/tE-backend",
+      "default_branch": "master",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "tE-Base",
+      "url": "https://github.com/WycliffeAssociates/tE-Base",
+      "default_branch": "master",
+      "description": "Docker and configuration files for the translationExchange environment"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "teAdmin",
+      "url": "https://github.com/WycliffeAssociates/teAdmin",
+      "default_branch": "master",
+      "description": "Admin app for translationExchange"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "tEAdminAndroid",
+      "url": "https://github.com/WycliffeAssociates/tEAdminAndroid",
+      "default_branch": "master",
+      "description": "Android app for Translation Exchange Admin"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "Tech-Advance-Training",
+      "url": "https://github.com/WycliffeAssociates/Tech-Advance-Training",
+      "default_branch": "autosync",
+      "description": "A mirror repo for documentation with Guru"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "tini",
+      "url": "https://github.com/WycliffeAssociates/tini",
+      "default_branch": "master",
+      "description": "A tiny but valid `init` for containers"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "tinytag",
+      "url": "https://github.com/WycliffeAssociates/tinytag",
+      "default_branch": "master",
+      "description": "Read music meta data and length of MP3, OGG, OPUS, MP4, M4A, FLAC, WMA and Wave files with python 2 or 3"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "tools",
+      "url": "https://github.com/WycliffeAssociates/tools",
+      "default_branch": "master",
+      "description": "Door43 tools for rendering and exporting Door43 pages and media."
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "tr-audio-publishing",
+      "url": "https://github.com/WycliffeAssociates/tr-audio-publishing",
+      "default_branch": "master",
+      "description": "Lambda functions that automates publishing process for audio translation projects"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "tr-chunk-browser",
+      "url": "https://github.com/WycliffeAssociates/tr-chunk-browser",
+      "default_branch": "master",
+      "description": "A Kotlin, TornadoFX app for working with tR audio files."
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "tr-crash-reports",
+      "url": "https://github.com/WycliffeAssociates/tr-crash-reports",
+      "default_branch": "master",
+      "description": "A repository to send crash reports"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "tr-creator",
+      "url": "https://github.com/WycliffeAssociates/tr-creator",
+      "default_branch": "master",
+      "description": "Create TR files"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "tr-wav",
+      "url": "https://github.com/WycliffeAssociates/tr-wav",
+      "default_branch": "master",
+      "description": "A Kotlin library for working with tR WAV audio file metadata."
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "tR_Converter",
+      "url": "https://github.com/WycliffeAssociates/tR_Converter",
+      "default_branch": "master",
+      "description": "translationRecorder Converter"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "translationDatabaseWeb",
+      "url": "https://github.com/WycliffeAssociates/translationDatabaseWeb",
+      "default_branch": "master",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "translationExchange",
+      "url": "https://github.com/WycliffeAssociates/translationExchange",
+      "default_branch": "master",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "translationExchangeAndroid",
+      "url": "https://github.com/WycliffeAssociates/translationExchangeAndroid",
+      "default_branch": "master",
+      "description": "Translation Exchange webview based app"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "translationRecorder",
+      "url": "https://github.com/WycliffeAssociates/translationRecorder",
+      "default_branch": "export-with-user",
+      "description": "Repository for translationRecorder Android App"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "translationRecorder-Info",
+      "url": "https://github.com/WycliffeAssociates/translationRecorder-Info",
+      "default_branch": "master",
+      "description": "Documentation for translationRecorder"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "translationRecorderWeb",
+      "url": "https://github.com/WycliffeAssociates/translationRecorderWeb",
+      "default_branch": "master",
+      "description": "Website for translationRecorder"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "translationStudio-Info",
+      "url": "https://github.com/WycliffeAssociates/translationStudio-Info",
+      "default_branch": "master",
+      "description": "Source files for translationStudio Documentation"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "trConverterAndroid",
+      "url": "https://github.com/WycliffeAssociates/trConverterAndroid",
+      "default_branch": "master",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "TriggerRepoBuild",
+      "url": "https://github.com/WycliffeAssociates/TriggerRepoBuild",
+      "default_branch": "master",
+      "description": "A small utility to trigger a rerender of a repo through the dcs publication pipeline"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "trsource-index",
+      "url": "https://github.com/WycliffeAssociates/trsource-index",
+      "default_branch": "master",
+      "description": "Creates an index of tr files"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "ts-android",
+      "url": "https://github.com/WycliffeAssociates/ts-android",
+      "default_branch": "master",
+      "description": "Bible Translation Tools Writer Application"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "TS-biel-files",
+      "url": "https://github.com/WycliffeAssociates/TS-biel-files",
+      "default_branch": "master",
+      "description": "These are Ts's files to be publically displayed and exposed on biel"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "TS-biel-files-playground",
+      "url": "https://github.com/WycliffeAssociates/TS-biel-files-playground",
+      "default_branch": "master",
+      "description": "Playground for external app to manage TS files;"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "ts-desktop",
+      "url": "https://github.com/WycliffeAssociates/ts-desktop",
+      "default_branch": "master",
+      "description": "Bible Translation Tools Writer Application"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "TwilioMessageManagement",
+      "url": "https://github.com/WycliffeAssociates/TwilioMessageManagement",
+      "default_branch": "master",
+      "description": "A desktop app to view and delete twilio messages"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "tx-manager",
+      "url": "https://github.com/WycliffeAssociates/tx-manager",
+      "default_branch": "develop",
+      "description": "Codebase for translationConvertor (tX)"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "Typography",
+      "url": "https://github.com/WycliffeAssociates/Typography",
+      "default_branch": "master",
+      "description": "C# Font Reader (TrueType / OpenType / OpenFont / CFF / woff / woff2) , Glyphs Layout and Rendering"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "upload-s3-action",
+      "url": "https://github.com/WycliffeAssociates/upload-s3-action",
+      "default_branch": "master",
+      "description": "github action for upload to S3 ☁️"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "usfm-onion",
+      "url": "https://github.com/WycliffeAssociates/usfm-onion",
+      "default_branch": "master",
+      "description": "A toolkit for working with usfm in rust and wasm"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "USFM-PHP-Parser",
+      "url": "https://github.com/WycliffeAssociates/USFM-PHP-Parser",
+      "default_branch": "master",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "usfm-scanner",
+      "url": "https://github.com/WycliffeAssociates/usfm-scanner",
+      "default_branch": "master",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "USFMCopyParallelPassages",
+      "url": "https://github.com/WycliffeAssociates/USFMCopyParallelPassages",
+      "default_branch": "master",
+      "description": "Tool to generate USFM based upon parallel passages"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "USFMDebugger",
+      "url": "https://github.com/WycliffeAssociates/USFMDebugger",
+      "default_branch": "master",
+      "description": "An application that gives a graphical tree view of how USFMToolsSharp understands a particular USFM document"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "USFMScannerNet",
+      "url": "https://github.com/WycliffeAssociates/USFMScannerNet",
+      "default_branch": "master",
+      "description": "Usfm Scanner but with .net"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "USFMToolsDart",
+      "url": "https://github.com/WycliffeAssociates/USFMToolsDart",
+      "default_branch": "master",
+      "description": "A port of USFMToolsSharp to the Dart language"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "USFMToolsJava",
+      "url": "https://github.com/WycliffeAssociates/USFMToolsJava",
+      "default_branch": "master",
+      "description": "A Java port of USFMToolsSharp"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "USFMToolsSharp",
+      "url": "https://github.com/WycliffeAssociates/USFMToolsSharp",
+      "default_branch": "master",
+      "description": "A USFM parser for c#"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "USFMToolsSharp.Linter",
+      "url": "https://github.com/WycliffeAssociates/USFMToolsSharp.Linter",
+      "default_branch": "master",
+      "description": "A linter for USFM that uses USFMToolsSharp"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "USFMToolsSharp.Renderers.Csv",
+      "url": "https://github.com/WycliffeAssociates/USFMToolsSharp.Renderers.Csv",
+      "default_branch": "master",
+      "description": "A CSV renderer for USFMToolsSharp"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "USFMToolsSharp.Renderers.Docx",
+      "url": "https://github.com/WycliffeAssociates/USFMToolsSharp.Renderers.Docx",
+      "default_branch": "develop",
+      "description": "Docx Renderer for USFM"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "USFMToolsSharp.Renderers.HTML",
+      "url": "https://github.com/WycliffeAssociates/USFMToolsSharp.Renderers.HTML",
+      "default_branch": "master",
+      "description": "HTML Renderer for USFM"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "USFMToolsSharp.Renderers.JSON",
+      "url": "https://github.com/WycliffeAssociates/USFMToolsSharp.Renderers.JSON",
+      "default_branch": "master",
+      "description": "JSON Renderer for USFM"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "USFMToolsSharp.Renderers.Latex",
+      "url": "https://github.com/WycliffeAssociates/USFMToolsSharp.Renderers.Latex",
+      "default_branch": "master",
+      "description": "Latex renderer for USFM"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "USFMToolsSharp.Renderers.USFM",
+      "url": "https://github.com/WycliffeAssociates/USFMToolsSharp.Renderers.USFM",
+      "default_branch": "master",
+      "description": "A USFM renderer for USFM"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "USFMToolsSharp.Renderers.USX",
+      "url": "https://github.com/WycliffeAssociates/USFMToolsSharp.Renderers.USX",
+      "default_branch": "master",
+      "description": "A USX renderer for USFM"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "USFMVSCode",
+      "url": "https://github.com/WycliffeAssociates/USFMVSCode",
+      "default_branch": "master",
+      "description": "Visual Studio Code plugin for USFM Support"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "uwadmin",
+      "url": "https://github.com/WycliffeAssociates/uwadmin",
+      "default_branch": "master",
+      "description": "Code for uW Admin site"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "vmast-docker",
+      "url": "https://github.com/WycliffeAssociates/vmast-docker",
+      "default_branch": "main",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "WACS",
+      "url": "https://github.com/WycliffeAssociates/WACS",
+      "default_branch": "prod",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "wacs-docker",
+      "url": "https://github.com/WycliffeAssociates/wacs-docker",
+      "default_branch": "content-dev.bibletranslationtools.org",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "WACS-docker-old",
+      "url": "https://github.com/WycliffeAssociates/WACS-docker-old",
+      "default_branch": "dev",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "WACS-GraphQL",
+      "url": "https://github.com/WycliffeAssociates/WACS-GraphQL",
+      "default_branch": "main",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "wacs_tn_line_counter",
+      "url": "https://github.com/WycliffeAssociates/wacs_tn_line_counter",
+      "default_branch": "prod",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "wahubot",
+      "url": "https://github.com/WycliffeAssociates/wahubot",
+      "default_branch": "master",
+      "description": "WAHubot"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "wazuh-tools",
+      "url": "https://github.com/WycliffeAssociates/wazuh-tools",
+      "default_branch": "master",
+      "description": "Useful scripts for those administering Wazuh"
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "webhook-listener",
+      "url": "https://github.com/WycliffeAssociates/webhook-listener",
+      "default_branch": "dev",
+      "description": ""
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "xrm-mock",
+      "url": "https://github.com/WycliffeAssociates/xrm-mock",
+      "default_branch": "master",
+      "description": ":books: A mock implementation of the Xrm.Page object model. Written in TypeScript against @types/xrm definitions."
+    },
+    {
+      "org": "WycliffeAssociates",
+      "name": "xrm-mock-generator",
+      "url": "https://github.com/WycliffeAssociates/xrm-mock-generator",
+      "default_branch": "master",
+      "description": ":book:  Generates a mock Xrm.Page object.  Commonly used by xrm-mock to test Dynamics 365 client-side customisations."
+    }
+  ]
+}
