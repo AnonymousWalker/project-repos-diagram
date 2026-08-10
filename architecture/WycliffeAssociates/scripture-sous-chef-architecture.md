@@ -13,12 +13,16 @@ flowchart TB
   end
 
   subgraph project["scripture-sous-chef"]
-    M0[".codegraph"]
-    M1["crates"]
-    M2["documentation"]
-    M3["pkg-bundler"]
-    M4["pkg-web"]
-    M5["scripts"]
+    M0[".cargo"]
+    M1[".claude"]
+    M2[".codegraph"]
+    M3["crates"]
+    M4["documentation"]
+    M5["pkg-bundler"]
+    M6["pkg-web"]
+    M7["scripts"]
+    M8["spike-bench"]
+    M9["xtask"]
   end
 
   subgraph meta["Project profile"]
@@ -32,6 +36,10 @@ flowchart TB
   Users --> M3
   Users --> M4
   Users --> M5
+  Users --> M6
+  Users --> M7
+  Users --> M8
+  Users --> M9
   Users -.-> Stack
 ```
 
@@ -42,12 +50,16 @@ flowchart TB
   Root["scripture-sous-chef<br/>A library for statistical anomaly detection and hygiene for usfm scripture proje"]
 
   subgraph structure["Top-level layout"]
-    D0[".codegraph"]
-    D1["crates"]
-    D2["documentation"]
-    D3["pkg-bundler"]
-    D4["pkg-web"]
-    D5["scripts"]
+    D0[".cargo"]
+    D1[".claude"]
+    D2[".codegraph"]
+    D3["crates"]
+    D4["documentation"]
+    D5["pkg-bundler"]
+    D6["pkg-web"]
+    D7["scripts"]
+    D8["spike-bench"]
+    D9["xtask"]
   end
 
   Root --> D0
@@ -56,11 +68,15 @@ flowchart TB
   Root --> D3
   Root --> D4
   Root --> D5
+  Root --> D6
+  Root --> D7
+  Root --> D8
+  Root --> D9
 ```
 
-**Directories:** `.codegraph`, `crates`, `documentation`, `pkg-bundler`, `pkg-web`, `scripts`
+**Directories:** `.cargo`, `.claude`, `.codegraph`, `crates`, `documentation`, `pkg-bundler`, `pkg-web`, `scripts`, `spike-bench`, `xtask`
 
-**Notable files:** `.DS_Store`, `.gitignore`, `Cargo.lock`, `Cargo.toml`, `package.json`, `README.md`
+**Notable files:** `.gitignore`, `Cargo.lock`, `Cargo.toml`, `CLAUDE.md`, `clippy.toml`, `glossary.md`, `package.json`, `README.md`
 
 
 ## Runtime / integration sketch
@@ -77,9 +93,12 @@ flowchart LR
 
 | Language | Approx. file count |
 |----------|-------------------|
-| Rust | 20 files |
-| TypeScript | 4 files |
-| JavaScript | 3 files |
+| Rust | 97 files |
+| TypeScript | 10 files |
+| JavaScript | 9 files |
+| HTML | 3 files |
+| Shell | 2 files |
+| Python | 1 files |
 
 ## Design notes
 

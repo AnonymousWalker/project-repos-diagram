@@ -2,6 +2,13 @@
   "repos": [
     {
       "org": "Bible-Translation-Tools",
+      "name": "Audio-Bible-Software",
+      "url": "https://github.com/Bible-Translation-Tools/Audio-Bible-Software",
+      "default_branch": "main",
+      "description": "A monorepo of Audio Bible Applications, namely BTT-Recorder and Orature"
+    },
+    {
+      "org": "Bible-Translation-Tools",
       "name": "AudioCompressor",
       "url": "https://github.com/Bible-Translation-Tools/AudioCompressor",
       "default_branch": "master",

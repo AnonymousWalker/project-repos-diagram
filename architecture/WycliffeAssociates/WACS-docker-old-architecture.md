@@ -60,8 +60,8 @@ flowchart LR
 | JavaScript | 176 files |
 | HTML | 132 files |
 | CSS | 15 files |
+| YAML | 3 files |
 | Shell | 2 files |
-| YAML | 2 files |
 
 ## Design notes
 

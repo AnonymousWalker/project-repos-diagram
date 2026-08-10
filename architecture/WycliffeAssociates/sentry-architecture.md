@@ -103,11 +103,11 @@ flowchart LR
 | Language | Approx. file count |
 |----------|-------------------|
 | Python | 2,032 files |
-| JavaScript | 871 files |
+| JavaScript | 872 files |
 | HTML | 164 files |
 | CSS | 4 files |
 | XML | 4 files |
-| YAML | 1 files |
+| YAML | 2 files |
 | Batch | 1 files |
 | Shell | 1 files |
 

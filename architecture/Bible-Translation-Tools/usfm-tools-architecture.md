@@ -65,7 +65,7 @@ flowchart LR
 
 | Language | Approx. file count |
 |----------|-------------------|
-| Python | 89 files |
+| Python | 90 files |
 
 ## Design notes
 

@@ -79,6 +79,7 @@ flowchart LR
 | HTML | 133 files |
 | CSS | 16 files |
 | Shell | 1 files |
+| YAML | 1 files |
 
 ## Design notes
 

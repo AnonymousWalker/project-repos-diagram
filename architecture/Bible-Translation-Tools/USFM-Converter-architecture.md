@@ -62,6 +62,7 @@ flowchart LR
 | Language | Approx. file count |
 |----------|-------------------|
 | C# | 33 files |
+| XML | 3 files |
 | CSS | 1 files |
 
 ## Design notes

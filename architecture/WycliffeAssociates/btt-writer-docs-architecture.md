@@ -2,7 +2,7 @@
 
 [WycliffeAssociates/btt-writer-docs](https://github.com/WycliffeAssociates/btt-writer-docs) — Documentation for BTT Writer.
 
-This is a repository for documentation for BTT Writer. See https://btt-writer-docs.readthedocs.io/en/latest/ for the documentation, this repo is the source files.
+See https://btt-writer.readthedocs.io/en/latest/ for the documentation, this repo is the source files.
 
 ## System context
 

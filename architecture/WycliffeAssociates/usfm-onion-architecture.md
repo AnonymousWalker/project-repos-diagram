@@ -90,7 +90,7 @@ flowchart TB
 
 **Directories:** `.cargo`, `benches`, `crates`, `docs`, `example-corpora`, `examples`, `js`, `pkg-bundler`, `pkg-web`, `plans`, `proptest-regressions`, `scripts`, `src`, `testData`, `tests`
 
-**Notable files:** `.gitignore`, `BENCH_RESULTS.md`, `BENCH_RESULTS_WASM.md`, `Cargo.lock`, `Cargo.toml`, `CLAUDE.md`, `clippy.toml`, `package.json`, `perf-notes.md`, `README.md`, `vision.md`
+**Notable files:** `.gitattributes`, `.gitignore`, `BENCH_RESULTS.md`, `BENCH_RESULTS_WASM.md`, `Cargo.lock`, `Cargo.toml`, `CLAUDE.md`, `clippy.toml`, `package-lock.json`, `package.json`, `perf-notes.md`, `README.md`, `tsconfig.packed-fixture.json`, `vision.md`
 
 
 ## Runtime / integration sketch
@@ -108,11 +108,12 @@ flowchart LR
 | Language | Approx. file count |
 |----------|-------------------|
 | XML | 529 files |
-| Rust | 39 files |
+| Rust | 95 files |
 | HTML | 15 files |
-| YAML | 5 files |
-| TypeScript | 5 files |
-| JavaScript | 4 files |
+| TypeScript | 8 files |
+| YAML | 6 files |
+| JavaScript | 6 files |
+| Python | 2 files |
 
 ## Design notes
 

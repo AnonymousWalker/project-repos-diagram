@@ -20,8 +20,8 @@ flowchart TB
   end
 
   subgraph meta["Project profile"]
-    Stack["Stack: Shell"]
-    Lang["Primary language: Shell"]
+    Stack["Stack: XML"]
+    Lang["Primary language: XML"]
   end
 
   Users --> M0
@@ -69,6 +69,7 @@ flowchart LR
 
 | Language | Approx. file count |
 |----------|-------------------|
+| XML | 1 files |
 | Shell | 1 files |
 | JavaScript | 1 files |
 | PowerShell | 1 files |
@@ -77,7 +78,7 @@ flowchart LR
 
 | Topic | Detail |
 |--------|--------|
-| **Stack** | Shell |
+| **Stack** | XML |
 | **Default branch** | `base` |
 | **Org** | Bible-Translation-Tools |
 

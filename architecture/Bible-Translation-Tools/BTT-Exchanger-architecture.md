@@ -78,7 +78,7 @@ flowchart LR
 | XML | 33 files |
 | Shell | 25 files |
 | CSS | 18 files |
-| YAML | 10 files |
+| YAML | 13 files |
 | Java | 9 files |
 | Gradle | 6 files |
 

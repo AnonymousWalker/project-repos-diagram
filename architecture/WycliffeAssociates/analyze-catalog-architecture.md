@@ -2,7 +2,7 @@
 
 [WycliffeAssociates/analyze-catalog](https://github.com/WycliffeAssociates/analyze-catalog) — Browse and process two unfoldingWord catalog datasets..
 
-[Node and npm](https://nodejs.org)
+Browse and process two unfoldingWord catalog datasets.
 
 ## System context
 

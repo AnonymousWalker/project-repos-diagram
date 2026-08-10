@@ -13,15 +13,19 @@ flowchart TB
   end
 
   subgraph project["Tech-Advance-Training"]
-    Core["source"]
+    M0[".github"]
+    M1["docs"]
+    M2["images"]
   end
 
   subgraph meta["Project profile"]
-    Stack["Stack: Unknown"]
-    Lang["Primary language: Unknown"]
+    Stack["Stack: HTML"]
+    Lang["Primary language: HTML"]
   end
 
-  Users --> Core
+  Users --> M0
+  Users --> M1
+  Users --> M2
   Users -.-> Stack
 ```
 
@@ -32,12 +36,19 @@ flowchart TB
   Root["Tech-Advance-Training<br/>A mirror repo for documentation with Guru"]
 
   subgraph structure["Top-level layout"]
-    Src["repository root"]
+    D0[".github"]
+    D1["docs"]
+    D2["images"]
   end
 
-  Root --> Src
+  Root --> D0
+  Root --> D1
+  Root --> D2
 ```
 
+**Directories:** `.github`, `docs`, `images`
+
+**Notable files:** `.gitignore`, `comments.json`, `README.md`, `readthedocs.yaml`
 
 
 ## Runtime / integration sketch
@@ -54,13 +65,18 @@ flowchart LR
 
 | Language | Approx. file count |
 |----------|-------------------|
-| — | — |
+| HTML | 82 files |
+| JavaScript | 11 files |
+| CSS | 4 files |
+| Python | 1 files |
+| Batch | 1 files |
+| YAML | 1 files |
 
 ## Design notes
 
 | Topic | Detail |
 |--------|--------|
-| **Stack** | Unknown |
+| **Stack** | HTML |
 | **Default branch** | `autosync` |
 | **Org** | WycliffeAssociates |
 
