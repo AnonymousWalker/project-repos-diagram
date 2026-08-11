@@ -15,12 +15,11 @@ flowchart TB
   subgraph project["Audio-Bible-Software"]
     M0[".agent"]
     M1[".github"]
-    M2[".idea"]
-    M3["app-orature"]
-    M4["app-recorder"]
-    M5["gradle"]
-    M6["proguard"]
-    M7["shared"]
+    M2["app-orature"]
+    M3["app-recorder"]
+    M4["gradle"]
+    M5["proguard"]
+    M6["shared"]
   end
 
   subgraph meta["Project profile"]
@@ -35,7 +34,6 @@ flowchart TB
   Users --> M4
   Users --> M5
   Users --> M6
-  Users --> M7
   Users -.-> Stack
 ```
 
@@ -48,12 +46,11 @@ flowchart TB
   subgraph structure["Top-level layout"]
     D0[".agent"]
     D1[".github"]
-    D2[".idea"]
-    D3["app-orature"]
-    D4["app-recorder"]
-    D5["gradle"]
-    D6["proguard"]
-    D7["shared"]
+    D2["app-orature"]
+    D3["app-recorder"]
+    D4["gradle"]
+    D5["proguard"]
+    D6["shared"]
   end
 
   Root --> D0
@@ -63,10 +60,9 @@ flowchart TB
   Root --> D4
   Root --> D5
   Root --> D6
-  Root --> D7
 ```
 
-**Directories:** `.agent`, `.github`, `.idea`, `app-orature`, `app-recorder`, `gradle`, `proguard`, `shared`
+**Directories:** `.agent`, `.github`, `app-orature`, `app-recorder`, `gradle`, `proguard`, `shared`
 
 **Notable files:** `.gitattributes`, `.gitignore`, `build.gradle.kts`, `gradle.properties`, `gradlew`, `gradlew.bat`, `LICENSE`, `README.md`, `settings.gradle.kts`
 
@@ -87,7 +83,7 @@ flowchart LR
 
 | Language | Approx. file count |
 |----------|-------------------|
-| Kotlin | 564 files |
+| Kotlin | 579 files |
 | XML | 22 files |
 | Gradle | 3 files |
 | SQL | 2 files |
