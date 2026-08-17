@@ -48,7 +48,7 @@ flowchart TB
 
 **Directories:** `.vscode`, `public`, `src`
 
-**Notable files:** `.gitignore`, `astro.config.mjs`, `package.json`, `pnpm-lock.yaml`, `README.md`, `tsconfig.json`, `worker-configuration.d.ts`, `wrangler.jsonc`
+**Notable files:** `.gitignore`, `astro.config.mjs`, `package.json`, `pnpm-lock.yaml`, `pnpm-workspace.yaml`, `README.md`, `tsconfig.json`, `worker-configuration.d.ts`, `wrangler.jsonc`
 
 
 ## Runtime / integration sketch
@@ -67,8 +67,8 @@ flowchart LR
 
 | Language | Approx. file count |
 |----------|-------------------|
-| TypeScript | 19 files |
-| YAML | 1 files |
+| TypeScript | 20 files |
+| YAML | 2 files |
 | CSS | 1 files |
 
 ## Design notes
