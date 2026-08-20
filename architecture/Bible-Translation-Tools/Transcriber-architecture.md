@@ -52,7 +52,7 @@ flowchart TB
 
 **Directories:** `.vscode`, `drizzle`, `public`, `src`
 
-**Notable files:** `.gitignore`, `biome.jsonc`, `crowdin.yml`, `drizzle.config.ts`, `index.html`, `lefthook.yml`, `LICENSE`, `package.json`, `pnpm-lock.yaml`, `README.md`, `tsconfig.app.json`, `tsconfig.json`, `tsconfig.node.json`, `tsconfig.worker.json`, `vite.config.ts`, `worker-configuration.d.ts`, `wrangler.jsonc`
+**Notable files:** `.gitignore`, `biome.jsonc`, `crowdin.yml`, `drizzle.config.ts`, `index.html`, `lefthook.yml`, `LICENSE`, `package.json`, `pnpm-lock.yaml`, `pnpm-workspace.yaml`, `README.md`, `tsconfig.app.json`, `tsconfig.json`, `tsconfig.node.json`, `tsconfig.worker.json`, `vite.config.ts`, `worker-configuration.d.ts`, `wrangler.jsonc`
 
 
 ## Runtime / integration sketch
@@ -71,10 +71,10 @@ flowchart LR
 
 | Language | Approx. file count |
 |----------|-------------------|
-| TypeScript | 81 files |
-| YAML | 3 files |
+| TypeScript | 84 files |
+| YAML | 4 files |
+| SQL | 3 files |
 | CSS | 3 files |
-| SQL | 2 files |
 | HTML | 1 files |
 | JavaScript | 1 files |
 
