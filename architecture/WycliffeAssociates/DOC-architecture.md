@@ -94,7 +94,7 @@ flowchart LR
 
 | Language | Approx. file count |
 |----------|-------------------|
-| Python | 96 files |
+| Python | 97 files |
 | Svelte | 83 files |
 | TypeScript | 45 files |
 | HTML | 14 files |
