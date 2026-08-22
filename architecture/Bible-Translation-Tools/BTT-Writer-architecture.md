@@ -14,9 +14,12 @@ flowchart TB
 
   subgraph project["BTT-Writer"]
     M0[".github"]
-    M1["androidApp"]
-    M2["composeApp"]
-    M3["gradle"]
+    M1[".maestro"]
+    M2["androidApp"]
+    M3["desktopApp"]
+    M4["docs"]
+    M5["gradle"]
+    M6["shared"]
   end
 
   subgraph meta["Project profile"]
@@ -28,6 +31,9 @@ flowchart TB
   Users --> M1
   Users --> M2
   Users --> M3
+  Users --> M4
+  Users --> M5
+  Users --> M6
   Users -.-> Stack
 ```
 
@@ -39,18 +45,24 @@ flowchart TB
 
   subgraph structure["Top-level layout"]
     D0[".github"]
-    D1["androidApp"]
-    D2["composeApp"]
-    D3["gradle"]
+    D1[".maestro"]
+    D2["androidApp"]
+    D3["desktopApp"]
+    D4["docs"]
+    D5["gradle"]
+    D6["shared"]
   end
 
   Root --> D0
   Root --> D1
   Root --> D2
   Root --> D3
+  Root --> D4
+  Root --> D5
+  Root --> D6
 ```
 
-**Directories:** `.github`, `androidApp`, `composeApp`, `gradle`
+**Directories:** `.github`, `.maestro`, `androidApp`, `desktopApp`, `docs`, `gradle`, `shared`
 
 **Notable files:** `.gitignore`, `build.gradle.kts`, `gradle.properties`, `gradlew`, `gradlew.bat`, `README.md`, `settings.gradle.kts`
 
@@ -71,8 +83,8 @@ flowchart LR
 
 | Language | Approx. file count |
 |----------|-------------------|
-| Kotlin | 349 files |
-| XML | 11 files |
+| Kotlin | 427 files |
+| XML | 12 files |
 | Batch | 1 files |
 
 ## Design notes
