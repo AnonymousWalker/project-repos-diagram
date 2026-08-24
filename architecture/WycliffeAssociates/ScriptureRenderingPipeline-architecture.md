@@ -94,7 +94,7 @@ flowchart LR
 
 | Language | Approx. file count |
 |----------|-------------------|
-| C# | 172 files |
+| C# | 173 files |
 | YAML | 1 files |
 
 ## Design notes
