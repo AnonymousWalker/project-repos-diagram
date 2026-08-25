@@ -71,7 +71,7 @@ flowchart LR
 
 | Language | Approx. file count |
 |----------|-------------------|
-| TypeScript | 13 files |
+| TypeScript | 15 files |
 | JavaScript | 1 files |
 
 ## Design notes
