@@ -4,7 +4,7 @@ Architecture diagrams (Mermaid) for public repositories under [Bible-Translation
 
 - Hand-authored (deeper review): Orature, Fetcher
 - Generated from repo layout/README: 238
-- Last generation — wrote/updated: 2, failed probes: 0
+- Last generation — wrote/updated: 1, failed probes: 0
 
 ## Bible-Translation-Tools
 

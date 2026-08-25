@@ -52,7 +52,7 @@ flowchart TB
 
 **Directories:** `.github`, `.vscode`, `src`, `syntaxes`
 
-**Notable files:** `.gitattributes`, `.gitignore`, `.vscodeignore`, `CHANGELOG.md`, `LICENSE`, `package-lock.json`, `package.json`, `README.md`, `tsconfig.json`, `tslint.json`, `webpack.config.js`
+**Notable files:** `.eslintrc.json`, `.gitattributes`, `.gitignore`, `.vscodeignore`, `CHANGELOG.md`, `LICENSE`, `package-lock.json`, `package.json`, `README.md`, `tsconfig.json`, `webpack.config.js`
 
 
 ## Runtime / integration sketch
@@ -71,7 +71,7 @@ flowchart LR
 
 | Language | Approx. file count |
 |----------|-------------------|
-| TypeScript | 6 files |
+| TypeScript | 13 files |
 | JavaScript | 1 files |
 
 ## Design notes
