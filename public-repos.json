@@ -2,6 +2,13 @@
   "repos": [
     {
       "org": "Bible-Translation-Tools",
+      "name": "ai-draft-translation",
+      "url": "https://github.com/Bible-Translation-Tools/ai-draft-translation",
+      "default_branch": "master",
+      "description": ""
+    },
+    {
+      "org": "Bible-Translation-Tools",
       "name": "Audio-Bible-Software",
       "url": "https://github.com/Bible-Translation-Tools/Audio-Bible-Software",
       "default_branch": "main",

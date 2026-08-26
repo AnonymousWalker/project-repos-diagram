@@ -3,11 +3,12 @@
 Architecture diagrams (Mermaid) for public repositories under [Bible-Translation-Tools](https://github.com/Bible-Translation-Tools/) and [WycliffeAssociates](https://github.com/WycliffeAssociates/).
 
 - Hand-authored (deeper review): Orature, Fetcher
-- Generated from repo layout/README: 238
-- Last generation — wrote/updated: 1, failed probes: 0
+- Generated from repo layout/README: 239
+- Last generation — wrote/updated: 2, failed probes: 0
 
 ## Bible-Translation-Tools
 
+- [ai-draft-translation](architecture/Bible-Translation-Tools/ai-draft-translation-architecture.md)
 - [Audio-Bible-Software](architecture/Bible-Translation-Tools/Audio-Bible-Software-architecture.md) — A monorepo of Audio Bible Applications, namely BTT-Recorder and Orature
 - [AudioCompressor](architecture/Bible-Translation-Tools/AudioCompressor-architecture.md)
 - [AudioCompressorAndroid](architecture/Bible-Translation-Tools/AudioCompressorAndroid-architecture.md) — Converts a zip of mp3 to wav and vice versa
