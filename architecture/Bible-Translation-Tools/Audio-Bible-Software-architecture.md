@@ -18,10 +18,11 @@ flowchart TB
     M2[".maestro"]
     M3["app-orature"]
     M4["app-recorder"]
-    M5["gradle"]
-    M6["libs"]
-    M7["proguard"]
-    M8["shared"]
+    M5["docs"]
+    M6["gradle"]
+    M7["libs"]
+    M8["proguard"]
+    M9["shared"]
   end
 
   subgraph meta["Project profile"]
@@ -38,6 +39,7 @@ flowchart TB
   Users --> M6
   Users --> M7
   Users --> M8
+  Users --> M9
   Users -.-> Stack
 ```
 
@@ -53,10 +55,11 @@ flowchart TB
     D2[".maestro"]
     D3["app-orature"]
     D4["app-recorder"]
-    D5["gradle"]
-    D6["libs"]
-    D7["proguard"]
-    D8["shared"]
+    D5["docs"]
+    D6["gradle"]
+    D7["libs"]
+    D8["proguard"]
+    D9["shared"]
   end
 
   Root --> D0
@@ -68,9 +71,10 @@ flowchart TB
   Root --> D6
   Root --> D7
   Root --> D8
+  Root --> D9
 ```
 
-**Directories:** `.agent`, `.github`, `.maestro`, `app-orature`, `app-recorder`, `gradle`, `libs`, `proguard`, `shared`
+**Directories:** `.agent`, `.github`, `.maestro`, `app-orature`, `app-recorder`, `docs`, `gradle`, `libs`, `proguard`, `shared`
 
 **Notable files:** `.gitattributes`, `.gitignore`, `build.gradle.kts`, `gradle.properties`, `gradlew`, `gradlew.bat`, `LICENSE`, `README.md`, `settings.gradle.kts`
 
@@ -91,7 +95,7 @@ flowchart LR
 
 | Language | Approx. file count |
 |----------|-------------------|
-| Kotlin | 752 files |
+| Kotlin | 753 files |
 | XML | 22 files |
 | YAML | 13 files |
 | Gradle | 3 files |
