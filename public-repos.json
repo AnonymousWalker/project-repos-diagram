@@ -1171,6 +1171,13 @@
     },
     {
       "org": "WycliffeAssociates",
+      "name": "scripture-kitchen",
+      "url": "https://github.com/WycliffeAssociates/scripture-kitchen",
+      "default_branch": "master",
+      "description": "Tools for slicing, dicing, and stewing up up some usfm."
+    },
+    {
+      "org": "WycliffeAssociates",
       "name": "scripture-sous-chef",
       "url": "https://github.com/WycliffeAssociates/scripture-sous-chef",
       "default_branch": "master",

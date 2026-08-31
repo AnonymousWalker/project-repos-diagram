@@ -1,5 +1,5 @@
 {
-  "Bible-Translation-Tools/Audio-Bible-Software": "5af00c99e85743a499039cdd523622a4345a9b85",
+  "Bible-Translation-Tools/Audio-Bible-Software": "56864bacc26eef9f356340d7e0ba8a38d4d9684f",
   "Bible-Translation-Tools/AudioCompressor": "59741676407735369294d136262af24bf484b9cf",
   "Bible-Translation-Tools/AudioCompressorAndroid": "440a7143da050f8c9c50d437cb39751d861bcadb",
   "Bible-Translation-Tools/AudioScripts": "a9f6f1f59e599c202b837a94c504ca78572b2236",
@@ -53,7 +53,7 @@
   "Bible-Translation-Tools/tornadofx-demo-app": "04ccc65b724b3cd26922faa68f4eca85bc308e0a",
   "Bible-Translation-Tools/tornadofx2": "fcefd5e1674fd08aedfd6f29b5505ab452dda596",
   "Bible-Translation-Tools/tr-source-server": "594a73b0c6720f46026d24befd728337c2505284",
-  "Bible-Translation-Tools/usfm-tools": "6e61f1b2602f27d61d07766f1628cb0d182a5117",
+  "Bible-Translation-Tools/usfm-tools": "d6183a482cf7810c568054cd8a702142573e68a7",
   "Bible-Translation-Tools/usfmtools-js": "8d51c90bccf9df795d09b7f380735a81ae8e7ca2",
   "Bible-Translation-Tools/versification_json": "0833abd5252e810fc76e80919a3109ed9c9cc3ae",
   "Bible-Translation-Tools/wat-worker": "60b101452f399e64e7bf8cd46bec697ed8f74bb0",
@@ -194,6 +194,7 @@
   "WycliffeAssociates/read.bibletranslationtools.org": "74b650cfc0b7083147b8ca6f1ed3591253340f0e",
   "WycliffeAssociates/scripture-analysis-api": "a8ab18a0dc6435dcf3542c86b4c93f30b3b4ec9f",
   "WycliffeAssociates/scripture-editor-proto": "8e8acd171bbb2d9a59045fa16e006aefebde4c20",
+  "WycliffeAssociates/scripture-kitchen": "323b9d6e9466fbb1e93a9b75ab45250d4096068b",
   "WycliffeAssociates/scripture-sous-chef": "6d69986031021d657bc06b4e96c2a3bc45c2a5bc",
   "WycliffeAssociates/sentry": "b15874bf50a5d10f4bb4286e8b7c48e7a9a1f341",
   "WycliffeAssociates/sentry-plugins": "fa58ac7d03f9bb7728c8e470a29d48f3ac7aff22",

@@ -3,8 +3,8 @@
 Architecture diagrams (Mermaid) for public repositories under [Bible-Translation-Tools](https://github.com/Bible-Translation-Tools/) and [WycliffeAssociates](https://github.com/WycliffeAssociates/).
 
 - Hand-authored (deeper review): Orature, Fetcher
-- Generated from repo layout/README: 239
-- Last generation — wrote/updated: 0, failed probes: 0
+- Generated from repo layout/README: 240
+- Last generation — wrote/updated: 3, failed probes: 0
 
 ## Bible-Translation-Tools
 
@@ -178,6 +178,7 @@ Architecture diagrams (Mermaid) for public repositories under [Bible-Translation
 - [SADirectoryMaker](architecture/WycliffeAssociates/SADirectoryMaker-architecture.md) — mini-project for Summer 2020 to make directory structure for Source Audio
 - [scripture-analysis-api](architecture/WycliffeAssociates/scripture-analysis-api-architecture.md)
 - [scripture-editor-proto](architecture/WycliffeAssociates/scripture-editor-proto-architecture.md)
+- [scripture-kitchen](architecture/WycliffeAssociates/scripture-kitchen-architecture.md) — Tools for slicing, dicing, and stewing up up some usfm.
 - [scripture-sous-chef](architecture/WycliffeAssociates/scripture-sous-chef-architecture.md) — A library for statistical anomaly detection and hygiene for usfm scripture projects.
 - [ScriptureBurrito](architecture/WycliffeAssociates/ScriptureBurrito-architecture.md) — Library for serializing and deserializing scripture burritos
 - [ScriptureRenderingPipeline](architecture/WycliffeAssociates/ScriptureRenderingPipeline-architecture.md) — A rendering pipeline for scripture

@@ -20,8 +20,8 @@ flowchart TB
     M4["app-recorder"]
     M5["docs"]
     M6["gradle"]
-    M7["libs"]
-    M8["proguard"]
+    M7["keystore"]
+    M8["libs"]
     M9["shared"]
   end
 
@@ -57,8 +57,8 @@ flowchart TB
     D4["app-recorder"]
     D5["docs"]
     D6["gradle"]
-    D7["libs"]
-    D8["proguard"]
+    D7["keystore"]
+    D8["libs"]
     D9["shared"]
   end
 
@@ -74,7 +74,7 @@ flowchart TB
   Root --> D9
 ```
 
-**Directories:** `.agent`, `.github`, `.maestro`, `app-orature`, `app-recorder`, `docs`, `gradle`, `libs`, `proguard`, `shared`
+**Directories:** `.agent`, `.github`, `.maestro`, `app-orature`, `app-recorder`, `docs`, `gradle`, `keystore`, `libs`, `shared`
 
 **Notable files:** `.gitattributes`, `.gitignore`, `build.gradle.kts`, `gradle.properties`, `gradlew`, `gradlew.bat`, `LICENSE`, `README.md`, `settings.gradle.kts`
 
