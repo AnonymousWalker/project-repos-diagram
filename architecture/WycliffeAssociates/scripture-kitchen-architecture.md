@@ -14,13 +14,16 @@ flowchart TB
 
   subgraph project["scripture-kitchen"]
     M0[".github"]
-    M1["docs"]
-    M2["galley"]
-    M3["onion"]
-    M4["onion-wasm"]
-    M5["planning"]
-    M6["tcdocs"]
-    M7["testData"]
+    M1["corpora"]
+    M2["docs"]
+    M3["galley"]
+    M4["mise"]
+    M5["onion"]
+    M6["onion-wasm"]
+    M7["planning"]
+    M8["sous-chef"]
+    M9["tcdocs"]
+    M10["testData"]
   end
 
   subgraph meta["Project profile"]
@@ -36,6 +39,9 @@ flowchart TB
   Users --> M5
   Users --> M6
   Users --> M7
+  Users --> M8
+  Users --> M9
+  Users --> M10
   Users -.-> Stack
 ```
 
@@ -47,13 +53,16 @@ flowchart TB
 
   subgraph structure["Top-level layout"]
     D0[".github"]
-    D1["docs"]
-    D2["galley"]
-    D3["onion"]
-    D4["onion-wasm"]
-    D5["planning"]
-    D6["tcdocs"]
-    D7["testData"]
+    D1["corpora"]
+    D2["docs"]
+    D3["galley"]
+    D4["mise"]
+    D5["onion"]
+    D6["onion-wasm"]
+    D7["planning"]
+    D8["sous-chef"]
+    D9["tcdocs"]
+    D10["testData"]
   end
 
   Root --> D0
@@ -64,11 +73,14 @@ flowchart TB
   Root --> D5
   Root --> D6
   Root --> D7
+  Root --> D8
+  Root --> D9
+  Root --> D10
 ```
 
-**Directories:** `.github`, `docs`, `galley`, `onion`, `onion-wasm`, `planning`, `tcdocs`, `testData`
+**Directories:** `.github`, `corpora`, `docs`, `galley`, `mise`, `onion`, `onion-wasm`, `planning`, `sous-chef`, `tcdocs`, `testData`
 
-**Notable files:** `.gitignore`, `Cargo.lock`, `Cargo.toml`, `CLAUDE.md`, `GLOSSARY.md`, `package.json`, `README.md`, `rust-toolchain.toml`
+**Notable files:** `.gitignore`, `Cargo.lock`, `Cargo.toml`, `CLAUDE.md`, `clippy.toml`, `GLOSSARY.md`, `package.json`, `README.md`, `rust-toolchain.toml`
 
 
 ## Runtime / integration sketch
@@ -86,13 +98,13 @@ flowchart LR
 | Language | Approx. file count |
 |----------|-------------------|
 | XML | 522 files |
-| Rust | 75 files |
-| TypeScript | 6 files |
+| Rust | 111 files |
+| TypeScript | 7 files |
 | YAML | 6 files |
 | JavaScript | 3 files |
+| Shell | 2 files |
 | Python | 2 files |
 | HTML | 1 files |
-| Shell | 1 files |
 
 ## Design notes
 

@@ -95,7 +95,7 @@ flowchart LR
 
 | Language | Approx. file count |
 |----------|-------------------|
-| TypeScript | 732 files |
+| TypeScript | 735 files |
 | XML | 13 files |
 | Rust | 10 files |
 | YAML | 7 files |
