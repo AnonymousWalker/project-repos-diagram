@@ -80,8 +80,8 @@ flowchart LR
 | TypeScript | 28 files |
 | JavaScript | 8 files |
 | YAML | 7 files |
+| SQL | 4 files |
 | CSS | 3 files |
-| SQL | 2 files |
 | Shell | 2 files |
 | HTML | 2 files |
 
