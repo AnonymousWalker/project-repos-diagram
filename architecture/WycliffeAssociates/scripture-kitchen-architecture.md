@@ -14,16 +14,17 @@ flowchart TB
 
   subgraph project["scripture-kitchen"]
     M0[".github"]
-    M1["corpora"]
-    M2["docs"]
-    M3["galley"]
-    M4["mise"]
-    M5["onion"]
-    M6["onion-wasm"]
-    M7["planning"]
-    M8["sous-chef"]
-    M9["tcdocs"]
-    M10["testData"]
+    M1["agents"]
+    M2["corpora"]
+    M3["docs"]
+    M4["galley"]
+    M5["mise"]
+    M6["onion"]
+    M7["onion-wasm"]
+    M8["planning"]
+    M9["sous-chef"]
+    M10["tcdocs"]
+    M11["testData"]
   end
 
   subgraph meta["Project profile"]
@@ -42,6 +43,7 @@ flowchart TB
   Users --> M8
   Users --> M9
   Users --> M10
+  Users --> M11
   Users -.-> Stack
 ```
 
@@ -53,16 +55,17 @@ flowchart TB
 
   subgraph structure["Top-level layout"]
     D0[".github"]
-    D1["corpora"]
-    D2["docs"]
-    D3["galley"]
-    D4["mise"]
-    D5["onion"]
-    D6["onion-wasm"]
-    D7["planning"]
-    D8["sous-chef"]
-    D9["tcdocs"]
-    D10["testData"]
+    D1["agents"]
+    D2["corpora"]
+    D3["docs"]
+    D4["galley"]
+    D5["mise"]
+    D6["onion"]
+    D7["onion-wasm"]
+    D8["planning"]
+    D9["sous-chef"]
+    D10["tcdocs"]
+    D11["testData"]
   end
 
   Root --> D0
@@ -76,11 +79,12 @@ flowchart TB
   Root --> D8
   Root --> D9
   Root --> D10
+  Root --> D11
 ```
 
-**Directories:** `.github`, `corpora`, `docs`, `galley`, `mise`, `onion`, `onion-wasm`, `planning`, `sous-chef`, `tcdocs`, `testData`
+**Directories:** `.github`, `agents`, `corpora`, `docs`, `galley`, `mise`, `onion`, `onion-wasm`, `planning`, `sous-chef`, `tcdocs`, `testData`
 
-**Notable files:** `.gitignore`, `Cargo.lock`, `Cargo.toml`, `CLAUDE.md`, `clippy.toml`, `GLOSSARY.md`, `package.json`, `README.md`, `rust-toolchain.toml`
+**Notable files:** `.gitignore`, `.mbx.toml`, `Cargo.lock`, `Cargo.toml`, `CLAUDE.md`, `clippy.toml`, `GLOSSARY.md`, `package-root.mjs`, `package.json`, `README.md`, `rust-toolchain.toml`, `wasm-build.sh`
 
 
 ## Runtime / integration sketch
@@ -98,13 +102,13 @@ flowchart LR
 | Language | Approx. file count |
 |----------|-------------------|
 | XML | 522 files |
-| Rust | 111 files |
-| TypeScript | 7 files |
+| Rust | 206 files |
+| TypeScript | 12 files |
+| JavaScript | 6 files |
 | YAML | 6 files |
-| JavaScript | 3 files |
-| Shell | 2 files |
+| Shell | 4 files |
+| HTML | 2 files |
 | Python | 2 files |
-| HTML | 1 files |
 
 ## Design notes
 
