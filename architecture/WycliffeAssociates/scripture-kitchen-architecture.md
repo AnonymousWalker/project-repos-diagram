@@ -66,6 +66,7 @@ flowchart TB
     D9["sous-chef"]
     D10["tcdocs"]
     D11["testData"]
+    D12["ticket"]
   end
 
   Root --> D0
@@ -80,9 +81,10 @@ flowchart TB
   Root --> D9
   Root --> D10
   Root --> D11
+  Root --> D12
 ```
 
-**Directories:** `.github`, `agents`, `corpora`, `docs`, `galley`, `mise`, `onion`, `onion-wasm`, `planning`, `sous-chef`, `tcdocs`, `testData`
+**Directories:** `.github`, `agents`, `corpora`, `docs`, `galley`, `mise`, `onion`, `onion-wasm`, `planning`, `sous-chef`, `tcdocs`, `testData`, `ticket`
 
 **Notable files:** `.gitignore`, `.mbx.toml`, `Cargo.lock`, `Cargo.toml`, `CLAUDE.md`, `clippy.toml`, `GLOSSARY.md`, `package-root.mjs`, `package.json`, `README.md`, `rust-toolchain.toml`, `wasm-build.sh`
 
@@ -102,8 +104,8 @@ flowchart LR
 | Language | Approx. file count |
 |----------|-------------------|
 | XML | 522 files |
-| Rust | 206 files |
-| TypeScript | 12 files |
+| Rust | 228 files |
+| TypeScript | 15 files |
 | JavaScript | 6 files |
 | YAML | 6 files |
 | Shell | 4 files |

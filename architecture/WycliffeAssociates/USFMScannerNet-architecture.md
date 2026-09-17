@@ -15,6 +15,7 @@ flowchart TB
   subgraph project["USFMScannerNet"]
     M0[".github"]
     M1["UsfmScannerNet"]
+    M2["UsfmScannerNet.Tests"]
   end
 
   subgraph meta["Project profile"]
@@ -24,6 +25,7 @@ flowchart TB
 
   Users --> M0
   Users --> M1
+  Users --> M2
   Users -.-> Stack
 ```
 
@@ -36,13 +38,15 @@ flowchart TB
   subgraph structure["Top-level layout"]
     D0[".github"]
     D1["UsfmScannerNet"]
+    D2["UsfmScannerNet.Tests"]
   end
 
   Root --> D0
   Root --> D1
+  Root --> D2
 ```
 
-**Directories:** `.github`, `UsfmScannerNet`
+**Directories:** `.github`, `UsfmScannerNet`, `UsfmScannerNet.Tests`
 
 **Notable files:** `.dockerignore`, `.gitignore`, `.gitmodules`, `docker-compose.yml`, `ErrorCodes.csv`, `LICENSE`, `README.md`, `UsfmScannerNet.sln`
 
@@ -62,7 +66,7 @@ flowchart LR
 
 | Language | Approx. file count |
 |----------|-------------------|
-| C# | 4 files |
+| C# | 6 files |
 | Python | 1 files |
 | YAML | 1 files |
 
