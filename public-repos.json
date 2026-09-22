@@ -331,6 +331,13 @@
     },
     {
       "org": "Bible-Translation-Tools",
+      "name": "Sefer",
+      "url": "https://github.com/Bible-Translation-Tools/Sefer",
+      "default_branch": "master",
+      "description": "An editor for usfm scripture"
+    },
+    {
+      "org": "Bible-Translation-Tools",
       "name": "Spotlight",
       "url": "https://github.com/Bible-Translation-Tools/Spotlight",
       "default_branch": "master",

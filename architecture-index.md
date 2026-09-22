@@ -3,8 +3,8 @@
 Architecture diagrams (Mermaid) for public repositories under [Bible-Translation-Tools](https://github.com/Bible-Translation-Tools/) and [WycliffeAssociates](https://github.com/WycliffeAssociates/).
 
 - Hand-authored (deeper review): Orature, Fetcher
-- Generated from repo layout/README: 240
-- Last generation — wrote/updated: 0, failed probes: 0
+- Generated from repo layout/README: 241
+- Last generation — wrote/updated: 3, failed probes: 0
 
 ## Bible-Translation-Tools
 
@@ -55,6 +55,7 @@ Architecture diagrams (Mermaid) for public repositories under [Bible-Translation
 - [scripture-burrito](architecture/Bible-Translation-Tools/scripture-burrito-architecture.md) — Scripture Burrito Schema & Docs 🌯
 - [ScriptureAppBuilder-pipeline](architecture/Bible-Translation-Tools/ScriptureAppBuilder-pipeline-architecture.md)
 - [SeekableJLayer](architecture/Bible-Translation-Tools/SeekableJLayer-architecture.md) — An upload of a jlayer fork with seek capabilities
+- [Sefer](architecture/Bible-Translation-Tools/Sefer-architecture.md) — An editor for usfm scripture
 - [Spotlight](architecture/Bible-Translation-Tools/Spotlight-architecture.md)
 - [storage-directory-specification](architecture/Bible-Translation-Tools/storage-directory-specification-architecture.md) — The specification for the directory structure of media storage
 - [sun-lessons](architecture/Bible-Translation-Tools/sun-lessons-architecture.md)

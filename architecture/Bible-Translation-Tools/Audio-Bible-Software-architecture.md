@@ -95,7 +95,7 @@ flowchart LR
 
 | Language | Approx. file count |
 |----------|-------------------|
-| Kotlin | 753 files |
+| Kotlin | 822 files |
 | XML | 22 files |
 | YAML | 13 files |
 | Gradle | 3 files |
