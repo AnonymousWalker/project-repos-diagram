@@ -75,10 +75,10 @@ flowchart LR
 
 | Language | Approx. file count |
 |----------|-------------------|
-| Kotlin | 117 files |
+| Kotlin | 70 files |
+| TypeScript | 49 files |
+| SQL | 12 files |
 | XML | 11 files |
-| TypeScript | 10 files |
-| SQL | 5 files |
 | Batch | 1 files |
 | HTML | 1 files |
 | CSS | 1 files |

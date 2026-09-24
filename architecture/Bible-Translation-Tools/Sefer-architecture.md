@@ -86,7 +86,7 @@ flowchart TB
 
 **Directories:** `.claude`, `.github`, `.zed`, `agents`, `documentation`, `e2e`, `fixtures`, `planning`, `public`, `src`, `src-tauri`, `tools`, `workers`
 
-**Notable files:** `.gitignore`, `.oxfmtrc.json`, `AGENTS.md`, `CLAUDE.MD`, `lefthook.yml`, `oxlint.config.ts`, `oxlint.release.config.ts`, `package.json`, `pnpm-lock.yaml`, `pnpm-workspace.yaml`, `README.md`, `tsconfig.json`, `vite.config.ts`, `wrangler.jsonc`
+**Notable files:** `.fallowrc.jsonc`, `.gitignore`, `.oxfmtrc.json`, `AGENTS.md`, `CLAUDE.MD`, `lefthook.yml`, `oxlint.config.ts`, `oxlint.release.config.ts`, `package.json`, `pnpm-lock.yaml`, `pnpm-workspace.yaml`, `README.md`, `tsconfig.json`, `vite.config.ts`, `wrangler.jsonc`
 
 
 ## Runtime / integration sketch
@@ -105,7 +105,7 @@ flowchart LR
 
 | Language | Approx. file count |
 |----------|-------------------|
-| TypeScript | 343 files |
+| TypeScript | 340 files |
 | Rust | 7 files |
 | YAML | 4 files |
 | CSS | 3 files |
